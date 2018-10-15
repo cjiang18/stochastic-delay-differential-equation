@@ -71,7 +71,7 @@ def counting(pullback, row1, boxwidth, Nbox, NHistory, tfinal, box, dt, xAll, N,
 
 
 '''''''main'''''''''
-'''This file compares the invariant measures calculated by using two different methods, namely Birkhoff theorem and markov chain.'''
+'''This file compares the invariant measures calculated by using two different methods, namely Birkhoff theorem and ulam's method.'''
 if __name__ == '__main__':
     '''parameters'''
     tfinal = 10000
