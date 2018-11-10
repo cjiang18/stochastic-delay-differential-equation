@@ -13,14 +13,17 @@ I am going to explain some of the algorithms I used in the scripts.
 
 A pullback means we have negative time. For example, if pullback is 200, then the system starts at t = -200.  We want to make sure that the noise realisation should be the same at each time point, so we can adjust the value of pullback and explore pullback attractors.  
 
-Thus, in order to allow pullback to vary without altering the noise realisation, we should not generate noise forward from the very initial time point (e.g. t = -200). Instead, we should generate **two** streams of noise, starting from t=0. 
+Thus, in order to allow pullback to vary without altering the noise realisation, we should not generate noise forward from the very initial time point (e.g. t = -200). Instead, we should generate **two** streams of noise, starting from t = 0. 
 
 Stream A  runs forward from t = 0 to $+\infty$.
 Stream B runs backward from t = 0 to $-\infty$.
 
+**N**
+This makes sure that once the random seed is fixed (notice we need two different seed to generate those streams, otherwise there)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxMzA3MTE3LDEzOTkxNzk5ODAsMTAyOD
-QyNTEyNiwtMzgzMTM4MzQ0LDYzNjU5MDYzNF19
+eyJoaXN0b3J5IjpbLTExNTQyMDU5MjEsMTM5OTE3OTk4MCwxMD
+I4NDI1MTI2LC0zODMxMzgzNDQsNjM2NTkwNjM0XX0=
 -->
