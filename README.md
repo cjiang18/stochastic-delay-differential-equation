@@ -20,11 +20,11 @@ Stream B runs backward from t = 0 to $-\infty$.
 
 **NOTICE** : we need two different seeds to generate those streams, otherwise there is a symmetry in noise.
 
-This makes sure that once the random seed is fixed, we can change adjust pullback and time
+This makes sure that once the random seed is fixed, we can change adjust pullback and the final time as we wish without altering the noise.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2Nzg1ODU0LDEzOTkxNzk5ODAsMTAyOD
-QyNTEyNiwtMzgzMTM4MzQ0LDYzNjU5MDYzNF19
+eyJoaXN0b3J5IjpbLTQzNTA3Njk5OSwxMzk5MTc5OTgwLDEwMj
+g0MjUxMjYsLTM4MzEzODM0NCw2MzY1OTA2MzRdfQ==
 -->
