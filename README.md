@@ -11,10 +11,10 @@ I am going to explain some of the algorithms I used in the scripts.
 
 # How noise realisation is implemented when pullback exists
 
-A pullback means we have negative time. For example, if pullback is 200, then we s
+A pullback means we have negative time. For example, if pullback is 200, then the system starts at t=-200. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2MTQ4NTQzLDEwMjg0MjUxMjYsLTM4Mz
-EzODM0NCw2MzY1OTA2MzRdfQ==
+eyJoaXN0b3J5IjpbMTM5OTE3OTk4MCwxMDI4NDI1MTI2LC0zOD
+MxMzgzNDQsNjM2NTkwNjM0XX0=
 -->
