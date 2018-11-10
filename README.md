@@ -1,2 +1,5 @@
 # stochastic-delay-differential-equation
-$\sigma$
+This is a 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyNTEwOTc1NDJdfQ==
+-->
