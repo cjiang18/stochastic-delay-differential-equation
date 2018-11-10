@@ -31,7 +31,7 @@ Two integration schemes are used for integrations. In most of the scripts, Euler
 ## Euler-Maruyama
 The Euler-Maruyama method is basically a stochastic version of the Euler's method for deterministic equation. Under Euler-Maruyama method, our equation becomes
 
-$dX(t+1)=X(t)* \left(\alpha +\beta X_\tau\right)$
+$X(t+dt)-X(t)=X(t)* \left(\alpha +\beta X_\tau(t)\right)*dt+$
 
 ## Heun's Method
 
@@ -39,5 +39,5 @@ $dX(t+1)=X(t)* \left(\alpha +\beta X_\tau\right)$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzA3MDEzMl19
+eyJoaXN0b3J5IjpbNzYxMjc2MDAzXX0=
 -->
