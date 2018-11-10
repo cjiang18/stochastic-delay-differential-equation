@@ -13,10 +13,12 @@ I am going to explain some of the algorithms I used in the scripts.
 
 A pullback means we have negative time. For example, if pullback is 200, then the system starts at t=-200.  We want to make sure that the noise realisation should be the same at each time point, so we can adjust the value of pullback and explore pullback attractors.  
 
-Thus, in order to allow pullback to vary without altering the noise realisation, we should not generate noise 
+Thus, in order to allow pullback to vary without altering the noise realisation, we should not generate noise forward from the very initial time point (e.g. t=-200). Instead, we should generate **two** streams of noise, starting from t=0. 
+
+Stream A should 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNjc3MzIzLDEzOTkxNzk5ODAsMTAyOD
+eyJoaXN0b3J5IjpbNDc3MTc1NDk4LDEzOTkxNzk5ODAsMTAyOD
 QyNTEyNiwtMzgzMTM4MzQ0LDYzNjU5MDYzNF19
 -->
