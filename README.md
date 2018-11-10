@@ -31,7 +31,7 @@ Two integration schemes are used for integrations. In most of the scripts, Euler
 ## Euler-Maruyama
 The Euler-Maruyama method is basically a stochastic version of the Euler's method for deterministic equation. Under Euler-Maruyama method, our equation becomes
 
-<img src="/tex/439d5b12dc6c860995693aa45e4255d1.svg?invert_in_darkmode&sanitize=true" align=middle width=23.46465164999999pt height=22.831056599999986pt/>
+<img src="/tex/3639592c8dfbbd6bef7fe53edf1872af.svg?invert_in_darkmode&sanitize=true" align=middle width=217.02084689999998pt height=24.65753399999998pt/>
 
 ## Heun's Method
 
@@ -39,5 +39,5 @@ The Euler-Maruyama method is basically a stochastic version of the Euler's metho
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjQzNTE4MV19
+eyJoaXN0b3J5IjpbMjE0NzA3MDEzMl19
 -->
