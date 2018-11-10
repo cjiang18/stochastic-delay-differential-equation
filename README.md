@@ -23,13 +23,14 @@ Stream B runs backward from t = 0 to $-\infty$.
 This makes sure that once the random seed is fixed, we can change adjust pullback and the final time as we wish without altering the noise.
 
 # Stochastic Integration Schemes
-Two integration schemes are used for integrations. In most of the scripts, Euler-Maruyama method are used to save computing time. Heun's Method  is only used when said in
+The philosophy of numeric integration is to discretize  
+Two integration schemes are used for integrations. In most of the scripts, Euler-Maruyama method are used to save computing time. Heun's Method  is only used when stated in the title of the scripts. More sophisticated integration schemes like Runge-Kutta, requires fractional time 
 ## Euler-Maruyama
 ## Heun's Method
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1NjgyMDU4LDEzOTkxNzk5ODAsMTAyOD
+eyJoaXN0b3J5IjpbMzI0NDEzNDg5LDEzOTkxNzk5ODAsMTAyOD
 QyNTEyNiwtMzgzMTM4MzQ0LDYzNjU5MDYzNF19
 -->
