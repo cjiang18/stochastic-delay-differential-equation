@@ -31,7 +31,7 @@ Two integration schemes are used for integrations. In most of the scripts, Euler
 ## Euler-Maruyama
 The Euler-Maruyama method is basically a stochastic version of the Euler's method for deterministic equation. Under Euler-Maruyama method, our equation becomes
 
-$X(t+dt)-X(t)=X(t)\left[\alpha +\beta X_\tau(t)\right]dt+\sigma X(t)dW$
+$X(t+dt)-X(t)=X(t)\left[\alpha +\beta X_\tau(t)\right]dt+\sigma X(t)[W(t+dt)-W(t)]$
 
 W follows a normal distribution with 
 ## Heun's Method
@@ -40,5 +40,5 @@ W follows a normal distribution with
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk5OTQ4OThdfQ==
+eyJoaXN0b3J5IjpbNDczMzcwMDgxXX0=
 -->
