@@ -18,12 +18,13 @@ Thus, in order to allow pullback to vary without altering the noise realisation,
 Stream A  runs forward from t = 0 to $+\infty$.
 Stream B runs backward from t = 0 to $-\infty$.
 
-**N**
-This makes sure that once the random seed is fixed (notice we need two different seed to generate those streams, otherwise there)
+**NOTICE** : we need two different seeds to generate those streams, otherwise there is a symmetry in noise.
+
+This makes sure that once the random seed is fixed, we can change adjust pullback and time
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQyMDU5MjEsMTM5OTE3OTk4MCwxMD
-I4NDI1MTI2LC0zODMxMzgzNDQsNjM2NTkwNjM0XX0=
+eyJoaXN0b3J5IjpbMTQ2Nzg1ODU0LDEzOTkxNzk5ODAsMTAyOD
+QyNTEyNiwtMzgzMTM4MzQ0LDYzNjU5MDYzNF19
 -->
