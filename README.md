@@ -23,14 +23,16 @@ Stream B runs backward from t = 0 to $-\infty$.
 This makes sure that once the random seed is fixed, we can change adjust pullback and the final time as we wish without altering the noise.
 
 # Stochastic Integration Schemes
-The philosophy of numeric integration is to discretize  
-Two integration schemes are used for integrations. In most of the scripts, Euler-Maruyama method are used to save computing time. Heun's Method  is only used when stated in the title of the scripts. More sophisticated integration schemes like Runge-Kutta, requires fractional time 
+The philosophy of numeric integration is to discretise time, and use summation to replace integration.
+ 
+Two integration schemes are used for integrations. In most of the scripts, Euler-Maruyama method are used to save computing time. Heun's Method  is only used when stated in the title of the scripts. More sophisticated integration schemes like Runge-Kutta, requires fractional time step, which I found infeasible for stochastic delay differential equation. 
 ## Euler-Maruyama
+
 ## Heun's Method
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0NDEzNDg5LDEzOTkxNzk5ODAsMTAyOD
+eyJoaXN0b3J5IjpbNzc0NDMxNDgzLDEzOTkxNzk5ODAsMTAyOD
 QyNTEyNiwtMzgzMTM4MzQ0LDYzNjU5MDYzNF19
 -->
