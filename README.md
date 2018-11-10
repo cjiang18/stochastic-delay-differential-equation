@@ -9,10 +9,12 @@ We were also ask to simulate the system when a pullback in time is set, in order
 
 I am going to explain some of the algorithms I used in the scripts.
 
-# How noise realisation is implemented when pullback  
+# How noise realisation is implemented when pullback exists
+
+A pullback means we have negative time. For example, if pullback is 200, then we s
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTUwNjAzNjQsMTAyODQyNTEyNiwtMz
-gzMTM4MzQ0LDYzNjU5MDYzNF19
+eyJoaXN0b3J5IjpbNjU2MTQ4NTQzLDEwMjg0MjUxMjYsLTM4Mz
+EzODM0NCw2MzY1OTA2MzRdfQ==
 -->
