@@ -29,12 +29,15 @@ The philosophy of numeric integration is to discretise time, and use summation t
  
 Two integration schemes are used for integrations. In most of the scripts, Euler-Maruyama method are used to save computing time. Heun's Method  is only used when stated in the title of the scripts. More sophisticated integration schemes like Runge-Kutta, requires fractional time step, which I found infeasible for stochastic delay differential equation. 
 ## Euler-Maruyama
-The Euler-Maruyama method is basically a stochastic version of the Euler's method for deterministic e
+The Euler-Maruyama method is basically a stochastic version of the Euler's method for deterministic equation. Under Euler-Maruyama method, our equation becomes
+
+<img src="/tex/439d5b12dc6c860995693aa45e4255d1.svg?invert_in_darkmode&sanitize=true" align=middle width=23.46465164999999pt height=22.831056599999986pt/>
+
 ## Heun's Method
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE5NDI0NTBdfQ==
+eyJoaXN0b3J5IjpbMTExMjQzNTE4MV19
 -->
