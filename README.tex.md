@@ -33,12 +33,12 @@ The Euler-Maruyama method is basically a stochastic version of the Euler's metho
 
 $X(t+dt)-X(t)=X(t)\left[\alpha +\beta X_\tau(t)\right]dt+\sigma X(t)[W(t+dt)-W(t)]$
 
-W follows a normal distribution with 
+$W(t+dt)-W(t)$ follows a normal distribution with variance $dt$.
 ## Heun's Method
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
 -->
