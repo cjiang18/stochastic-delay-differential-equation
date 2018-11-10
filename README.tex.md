@@ -17,6 +17,7 @@ A pullback means we have negative time. For example, if pullback is 200, then th
 Thus, in order to allow pullback to vary without altering the noise realisation, we should not generate noise forward from the very initial time point (e.g. t = -200). Instead, we should generate **two** streams of noise, starting from t = 0. 
 
 Stream A  runs forward from t = 0 to $+\infty$.
+
 Stream B runs backward from t = 0 to $-\infty$.
 
 **NOTICE** : we need two different seeds to generate those streams, otherwise there is a symmetry in noise.
@@ -34,3 +35,6 @@ The Euler-Maruyama method is basically a stochastic version of the Euler's metho
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzNzE5NDI0NTBdfQ==
+-->
