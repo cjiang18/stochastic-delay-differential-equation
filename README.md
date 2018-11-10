@@ -9,7 +9,7 @@ We were also ask to simulate the system when a pullback in time is set, in order
 
 I am going to explain some of the algorithms I used in the scripts.
 
-# How Noise Realisation is Implemented when pullback exists
+# How Noise Realisation Is Implemented When Pullback Exists
 
 A pullback means we have negative time. For example, if pullback is 200, then the system starts at t = -200.  We want to make sure that the noise realisation should be the same at each time point, so we can adjust the value of pullback and explore pullback attractors.  
 
@@ -23,13 +23,13 @@ Stream B runs backward from t = 0 to $-\infty$.
 This makes sure that once the random seed is fixed, we can change adjust pullback and the final time as we wish without altering the noise.
 
 # Stochastic Integration Schemes
-
+Two integration schemes are used for integrations. In most of the scripts, Euler-Maruyama method are used to save computing time. Heun's Method  is only used when said in
 ## Euler-Maruyama
 ## Heun's Method
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTUxNTMzNywxMzk5MTc5OTgwLDEwMj
-g0MjUxMjYsLTM4MzEzODM0NCw2MzY1OTA2MzRdfQ==
+eyJoaXN0b3J5IjpbODE1NjgyMDU4LDEzOTkxNzk5ODAsMTAyOD
+QyNTEyNiwtMzgzMTM4MzQ0LDYzNjU5MDYzNF19
 -->
