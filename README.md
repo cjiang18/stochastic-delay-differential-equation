@@ -22,9 +22,11 @@ Stream B runs backward from t = 0 to $-\infty$.
 
 This makes sure that once the random seed is fixed, we can change adjust pullback and the final time as we wish without altering the noise.
 
+#The
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTA3Njk5OSwxMzk5MTc5OTgwLDEwMj
-g0MjUxMjYsLTM4MzEzODM0NCw2MzY1OTA2MzRdfQ==
+eyJoaXN0b3J5IjpbLTExOTY2OTI5MjEsMTM5OTE3OTk4MCwxMD
+I4NDI1MTI2LC0zODMxMzgzNDQsNjM2NTkwNjM0XX0=
 -->
