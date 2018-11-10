@@ -77,7 +77,8 @@ def pullbacklogistic(pullback, xinitial):
 
 '''This file is used for calculating and plotting trace and lyapunov spectrum of a stochastic logistic differential equation. 
 You should not set the time step too large or the integration step too small,as it may lead to a memory insufficiency. Use the file,
-comparison between euler and heun-lyapunov spectrum, instead, if you does want to explore lyapunov spectrum. In that case, the trace is not stored.'''
+comparison between euler and heun-lyapunov spectrum instead, if you does want to explore lyapunov spectrum. In that case, 
+the trace is not stored.'''
 if __name__ == '__main__':
 
         '''parameters'''
