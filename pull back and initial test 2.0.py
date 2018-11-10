@@ -1,3 +1,7 @@
+
+
+'''this script is used to plot trace of a particle with different pullback and initial values'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -5,24 +9,23 @@ import matplotlib.pyplot as plt
 
 
 
-'''''''main'''''''''
 
 '''parameters'''
 tfinal = 3000
-R = 1 # factor of the unit time size (preferably integer)
-tau = 7
-sigma = 0
+R = 1   # factor of the unit time size (preferably integer)
+tau = 7  #delay
+sigma = 0 
 alpha = 0.2
 beta = 0.5
-M = 2  # number of paths
-pullback = [0]
+M = 2  # number of paths with same noise realisation but different initial values
+pullback = [0] # a list of numbers
 seed = 0  # random seed
-tinitial = 0
-xinitial = np.linspace(1,5.1,M,endpoint=False)  # initial condition of x
+tinitial = 0 #do not change
+xinitial = np.linspace(1,5.1,M,endpoint=False)  # a list of initial conditions of x
 tDelta = 0.01  # the unit time size (resolution of the graph)
 dt = R * tDelta
 
-plt.figure(0)  # constructing figure
+
 
 for ii in range(len(pullback)):
 
