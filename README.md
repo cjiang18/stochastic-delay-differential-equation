@@ -2,7 +2,7 @@
 # Introduction  
 This is a summer project I did in 2018 summer in Imperial College London. The main task is to simulate the following logistic stochastic delay differential equation. 
 
-<img src="/tex/9fb1ead4f46bfbe356eed30dec7b748f.svg?invert_in_darkmode&sanitize=true" align=middle width=221.58144525pt height=24.65753399999998pt/>
+<img src="/tex/9fb1ead4f46bfbe356eed30dec7b748f.svg?invert_in_darkmode&sanitize=true" align=middle width=22.81445pt height=24.65753399999998pt/>
 
 where <img src="/tex/c745b9b57c145ec5577b82542b2df546.svg?invert_in_darkmode&sanitize=true" align=middle width=10.57650494999999pt height=14.15524440000002pt/> and <img src="/tex/8217ed3c32a785f0b5aad4055f432ad8.svg?invert_in_darkmode&sanitize=true" align=middle width=10.16555099999999pt height=22.831056599999986pt/> are parameters of the deterministic delay logistic equation, and <img src="/tex/647ddedd0d2f600c40dbbe8108056d5d.svg?invert_in_darkmode&sanitize=true" align=middle width=125.24022225pt height=24.65753399999998pt/>.
 
@@ -33,25 +33,27 @@ The Euler-Maruyama method is basically a stochastic version of the Euler's metho
 
 <img src="/tex/4c6fda2b84bf19d1ef8c7d29f1c50d75.svg?invert_in_darkmode&sanitize=true" align=middle width=488.5447545pt height=24.65753399999998pt/>
 
-<img src="/tex/f11145648cff3ba9c4465b8461448c77.svg?invert_in_darkmode&sanitize=true" align=middle width=127.73402069999999pt height=24.65753399999998pt/> follows a normal distribution with variance <img src="/tex/5a8af6f173febd968ef4c52695efcf85.svg?invert_in_darkmode&sanitize=true" align=middle width=14.492060549999989pt height=22.831056599999986pt/>. Thus, <img src="/tex/f11145648cff3ba9c4465b8461448c77.svg?invert_in_darkmode&sanitize=true" align=middle width=127.73402069999999pt height=24.65753399999998pt/> is realised by drawing a sample from the normal distribution with variance <img src="/tex/5a8af6f173febd968ef4c52695efcf85.svg?invert_in_darkmode&sanitize=true" align=middle width=14.492060549999989pt height=22.831056599999986pt/>. In fact, in my implementation, a smaller times step called **tDelta** is set, and <img src="/tex/e65c57c88cc602403a9760a73adca1ec.svg?invert_in_darkmode&sanitize=true" align=middle width=112.05319124999998pt height=22.831056599999986pt/>, where <img src="/tex/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode&sanitize=true" align=middle width=12.60847334999999pt height=22.465723500000017pt/> is an integer. Now
+<img src="/tex/f11145648cff3ba9c4465b8461448c77.svg?invert_in_darkmode&sanitize=true" align=middle width=127.73402069999999pt height=24.65753399999998pt/> follows a normal distribution with variance <img src="/tex/5a8af6f173febd968ef4c52695efcf85.svg?invert_in_darkmode&sanitize=true" align=middle width=14.492060549999989pt height=22.831056599999986pt/>. Thus, <img src="/tex/f11145648cff3ba9c4465b8461448c77.svg?invert_in_darkmode&sanitize=true" align=middle width=127.73402069999999200b0a90bb002ce5f59368cd4a8fb0b73639592c8dfbbd6bef7fe53edf1872af439d5b12dc6c860995693aa45e4255d1.svg?invert_in_darkmode&sanitize=true" align=middle width=127.7340206378.04251044217.02084683.46465164999999958pt height=24.65753392.831056599999986pt/> is realised by drawing a sample from the
 
-<img src="/tex/c5b43f0282cd8e2163c09c50dbc558a4.svg?invert_in_darkmode&sanitize=true" align=middle width=510.09202365pt height=29.789954700000024pt/>
-## Heun's Method
+W follows a normal distribution with variance <img src="/tex/5a8af6f173febd968ef4c52695efcf85.svg?invert_in_darkmode&sanitize=true" align=middle width=14.492060549999989pt height=22.831056599999986pt/>. In fact, in my implementation, a smaller times step called **tDelta** is set, and <img src="/tex/e65c57c88cc602403a9760a73adca1ec.svg?invert_in_darkmode&sanitize=true" align=middle width=112.05319124999998pt height=22.831056599999986pt/>, where <img src="/tex/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode&sanitize=true" align=middle width=12.60847334999999pt height=22.465723500000017pt/> is an integer. Now
+
+<img src="/tex/c5b43f0282cd8e2163c09c50dbc558a43a7611d3205be2e25ef167b61ff5bcf8.svg?invert_in_darkmode&sanitize=true" align=middle width=510.09202365176.58099689999997pt height=29.78995477.8211450000000243pt/>
+## Heun's Methodi
 Heun's Method is supposed to be more accurate than Euler's Method for integrating the deterministic equation, but it is more time- consuming. The scheme for integrating the random variable is the same as Euler-Maruyama, as Heun's Method only improves evaluation of the deterministic gradient. 
 
 For the sake of simplicity, suppose our equation is 
 
-<img src="/tex/276736f3fa54ff8824088ff97508ce56.svg?invert_in_darkmode&sanitize=true" align=middle width=204.34347945pt height=24.65753399999998pt/>
+<img src="/tex/276736f3fa54ff8824088ff97508ce5636998de7effa663e2e390430a2c4ffe9.svg?invert_in_darkmode&sanitize=true" align=middle width=204.34347945161.74087049999997pt height=24.65753399999998pt/>
 
 Then, under Heun's method, we first use the same technique as Euler's method to find the value of X(t+dt) by
 
 <img src="/tex/3670dc0c8303a17ad177aadde8179653.svg?invert_in_darkmode&sanitize=true" align=middle width=302.81368919999994pt height=24.65753399999998pt/>
 
-However, this <img src="/tex/2d5e9e9001f4057fdc75304f69d1b973.svg?invert_in_darkmode&sanitize=true" align=middle width=68.21345024999998pt height=24.65753399999998pt/> is only an intermediate value. The purpose is to use this to evaluate <img src="/tex/b2367977fd59de49ecc94c7e87b2ab75.svg?invert_in_darkmode&sanitize=true" align=middle width=63.09932639999998pt height=24.65753399999998pt/> and then use 
+However, this <img src="/tex/2d5e9e9001f4057fdc75304f69d1b973e200e34da364d469d9368cf343f10844.svg?invert_in_darkmode&sanitize=true" align=middle width=68.21345024999998260.2110786pt height=24.65753399999998pt/> is only an intermediate value. The purpose is to use this to evaluate <img src="/tex/b2367977fd59de49ecc94c7e87b2ab75.svg?invert_in_darkmode&sanitize=true" align=middle width=63.09932639999998pt height=24.65753399999998pt/> and then use$dW=X( \alpha +\beta X_\tau )dt+\sigma X dWis 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2NTI0MzI2LC0xMzY3ODE3NzcxLC04MD
-I1ODUyNzEsNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbLTYwMjQyMTEwNCw5NjY1MjQzMjYsLTEzNj
+c4MTc3NzEsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
 -->
