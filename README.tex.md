@@ -64,7 +64,7 @@ $X(t)=e^{tA}X_0,\quad A\in\mathbb{R}^{NHistory\times NHistory}$
 
 Thus starting with $X_o=I$, we have $X(t)=e^{tA}$. The Lyapunov spectrum is a vector :
 
-$L=\lim(n\rightarrow \infty)\{\frac{1}{t}\log (\text{eigenvalues})\}$
+$L=\lim(t\rightarrow \infty)\{\frac{1}{t}\log (\text{eigenvalues}(X(t)))\}$
 
 Working from first principles, the tangent equation is found to be
 
@@ -75,7 +75,7 @@ Working from first principles, the tangent equation is found to be
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDcxMzA1MCwyNjU4NzQxNDAsMTQ0Nj
+eyJoaXN0b3J5IjpbMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0Nj
 IwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAz
 NDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MS
 w0NzMzNzAwODFdfQ==
