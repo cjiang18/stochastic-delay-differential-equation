@@ -72,7 +72,7 @@ Working from first principles, the tangent equation is found to be
 
 <img src="/tex/306dc770a69a0e1b8243fe9cf150bf83.svg?invert_in_darkmode&sanitize=true" align=middle width=288.68251499999997pt height=24.65753399999998pt/>
 
-Now, implementing the integration scheme we can find <img src="/tex/02fa8b922302d21626546fa1121e02f1.svg?invert_in_darkmode&sanitize=true" align=middle width=31.96356239999999pt height=24.65753399999998pt/>, and estimate the Lyapunov Spectrum by choosing a large positive t.
+Now, implementing the integration scheme we can find <img src="/tex/02fa8b922302d21626546fa1121e02f1.svg?invert_in_darkmode&sanitize=true" align=middle width=31.96356239999999pt height=24.65753399999998pt/>, and estimate the Lyapunov Spectrum by choosing a large .
 
 
 
