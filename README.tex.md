@@ -40,6 +40,7 @@ $W(t+dt)-W(t)$ follows a normal distribution with variance $dt$. Thus, $W(t+dt)-
 $W(t+dt)-W(t)=\displaystyle\Sigma_{i=0}^{R-1}[W(t+(i+1)*tDelta)-W(t+i*tDelta)]$
 
 ## 3.2  Heun's Method
+
 Heun's Method is supposed to be more accurate than Euler's Method for integrating the deterministic equation, but it is more time- consuming. The scheme for integrating the random variable is the same as Euler-Maruyama, as Heun's Method only improves evaluation of the deterministic gradient. 
 
 For the sake of simplicity, suppose our equation is 
@@ -87,6 +88,7 @@ The invariant measure could be understood as a (probability) distribution of par
 The Ulam's method uses Markov Chain.  Suppose  we have a finite state process, then the invariant measure could be calculated by computing the eigenvalues and eigenvectors of the corresponding Markov matrix. The eigenvector corresponding to eigenvalue 1, is the required invariant measure.
 
 If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ into N equally spaced subintervals. Then, considering each subinterval as a single state, we have a N-state Markov process.
+
 ## 5.2 Birkhoff's Theorem
 
 
@@ -101,7 +103,7 @@ If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ i
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjU5MzM0Nyw4NjI1MjUxMTgsLTI3ND
+eyJoaXN0b3J5IjpbLTMxNDkyMjg0OSw4NjI1MjUxMTgsLTI3ND
 k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
 NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
 YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
