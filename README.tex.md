@@ -125,8 +125,9 @@ Now, we have reduced our problem to what we have discussed at the very beginning
 
 
 ## 5.2 Birkhoff's Theorem
-The Birkhoff's Theorem states that given $(X,\mathscr{F},\mu)$ is a probability space and $f:X\rightarrow X$ a measurable function such that $\mu$ is invariant with respect to f. then we have:
+The Birkhoff's Theorem states that given $(X,\mathscr{F},\mu)$ is a probability space and $f:X\rightarrow X$ a measurable function such that $\mu$ is invariant with respect to f then we have:
 
+$lim(n\rightarrow\infty)\frac{1}{n}\Sigma_{i=0}^{n-1}I_A(fî)$
 
 
 
@@ -140,7 +141,7 @@ The Birkhoff's Theorem states that given $(X,\mathscr{F},\mu)$ is a probability 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3OTY3MDMzLC0xNTM3NjI3MjksODQ4OT
+eyJoaXN0b3J5IjpbMzU0NjMwNDM4LC0xNTM3NjI3MjksODQ4OT
 U0MDQ4LDExNzM0NTA3NjAsMTU3NTgwMzI3Miw4NjI1MjUxMTgs
 LTI3NDk3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MD
 g4MzUzNDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQw
