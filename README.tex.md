@@ -58,14 +58,16 @@ Although the delay function $X:[-\tau,0]\rightarrow\mathbb{R}$ is infinite dimen
 
 For the purpose of more robust computation, we use $NHistory=\tau/dt$ points, which are evenly spaced in the time domain, to represent the function, where $dt$ is set to guarantee that $NHistory$ is an integer. Now the infinite dimensional functions is approximated by a $NHistory$-dimensional object.  Thus, this $NHistory$-dimensional object can be represented by a $NHistory$-dimensional vector, indicating the values the object takes at each time point. 
 
-Since we are dealing with $NHistory$ -dimension, we choose the canonical basis $\{e_1,e_2,\dots, e_{Nhistory}\}$.  Aligning them together gives us the identity matrix. To estimate the Lyapunov spectrum,  we are going to see how this canonical basis develops when time span is very large, under the linearisation of the of stochastic delay differential equation.
+Since we are dealing with $NHistory$ -dimension, we choose the canonical basis $\{e_1,e_2,\dots, e_{Nhistory}\}$.  Aligning them together gives us the identity matrix. To estimate the Lyapunov spectrum,  we are going to see how this canonical basis develops when time span is very large, under the linearisation of the of stochastic delay differential equation. Since this system is autonomous, the linearisation could be 
+
+$X(t)=\Phi(t)X_0$
 
 
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTMyMjk0NywtNjIxNzAyMDM1LC0yNT
+eyJoaXN0b3J5IjpbLTY0MjEyNzk3NCwtNjIxNzAyMDM1LC0yNT
 kyMDg0MzIsLTIxMzIxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4
 MTc3NzEsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
 -->
