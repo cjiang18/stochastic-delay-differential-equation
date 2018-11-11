@@ -87,13 +87,13 @@ The invariant measure could be understood as a (probability) distribution of par
 
 The Ulam's method uses Markov Chain.
 
-  Suppose  we have a finite state process, then the invariant measure could be calculated by computing the eigenvalues and eigenvectors of the corresponding Markov matrix. The eigenvector corresponding to eigenvalue 1, is the required invariant measure.
+ Suppose  we have a discrete finite state process, then the invariant measure could be calculated by computing the eigenvalues and eigenvectors of the corresponding Markov matrix. The eigenvector corresponding to eigenvalue 1, is the required invariant measure.
 
 If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ into N equally spaced subintervals. Then, considering each subinterval as a single state, we have a N-state Markov process.
 
 And the Markov matrix of this process is estimated by:
 
-$p_{ij}=\frac{\#}{}$
+$p_{ij}=\frac{\text{\#X(t) in state i and X(t+1) in state}}{}$
 
 However the process we are dealing with is 
 
@@ -131,10 +131,10 @@ a = the smallest value a path has ever visited
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2MDMwNDg5LDg2MjUyNTExOCwtMjc0OT
-c4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0
-MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0Nj
-IwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAz
-NDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MS
-w0NzMzNzAwODFdfQ==
+eyJoaXN0b3J5IjpbLTEzNjMzNzc2MjMsODYyNTI1MTE4LC0yNz
+Q5NzgwNjYsMTkxMTYzMDk1OCwtMTAxMzgzNzk1MCwtNjA4ODM1
+MzQyLC04Njc5NTE2NSwxMzQyNjcxODY0LDI2NTg3NDE0MCwxND
+Q2MjAzNDUxLC02MjE3MDIwMzUsLTI1OTIwODQzMiwtMjEzMjE2
+MDM0NSwtMTQwNTA4MzcxMSwtMTM2NzgxNzc3MSwtODAyNTg1Mj
+cxLDQ3MzM3MDA4MV19
 -->
