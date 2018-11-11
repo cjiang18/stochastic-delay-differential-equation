@@ -127,7 +127,7 @@ Now, we have reduced our problem to what we have discussed at the very beginning
 ## 5.2 Birkhoff's Theorem
 The Birkhoff's Theorem states that given $(X,\mathscr{F},\mu)$ is a probability space and $f:X\rightarrow X$ a measurable function such that $\mu$ is invariant with respect to f then we have:
 
-$lim(n\rightarrow\infty)\frac{1}{n}\Sigma_{i=0}^{n-1}I_A(fî)$
+$lim(n\rightarrow\infty)\frac{1}{n}\Sigma_{i=0}^{n-1}I_A(f^i(x))=\mu(A)$
 
 
 
@@ -141,11 +141,11 @@ $lim(n\rightarrow\infty)\frac{1}{n}\Sigma_{i=0}^{n-1}I_A(fî)$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0NjMwNDM4LC0xNTM3NjI3MjksODQ4OT
-U0MDQ4LDExNzM0NTA3NjAsMTU3NTgwMzI3Miw4NjI1MjUxMTgs
-LTI3NDk3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MD
-g4MzUzNDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQw
-LDE0NDYyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMT
-MyMTYwMzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1
-ODUyNzFdfQ==
+eyJoaXN0b3J5IjpbMTA2NDc5NjUwNywtMTUzNzYyNzI5LDg0OD
+k1NDA0OCwxMTczNDUwNzYwLDE1NzU4MDMyNzIsODYyNTI1MTE4
+LC0yNzQ5NzgwNjYsMTkxMTYzMDk1OCwtMTAxMzgzNzk1MCwtNj
+A4ODM1MzQyLC04Njc5NTE2NSwxMzQyNjcxODY0LDI2NTg3NDE0
+MCwxNDQ2MjAzNDUxLC02MjE3MDIwMzUsLTI1OTIwODQzMiwtMj
+EzMjE2MDM0NSwtMTQwNTA4MzcxMSwtMTM2NzgxNzc3MSwtODAy
+NTg1MjcxXX0=
 -->
