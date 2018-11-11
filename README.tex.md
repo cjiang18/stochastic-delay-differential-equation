@@ -77,7 +77,9 @@ Now, implementing the integration scheme we can find $V(t)$, and estimate the Ly
 # 5. Invariant Measure
 The invariant measure could be understood as a (probability) distribution of particles in the dynamical system when time tends to infinity. Two methods are used to cross-validate the calculation of the invariant measure.
 ## 5.1 Ulam's Method
-The Ulam's method uses Markov Chain.  Suppose  we have a finite state process, then the invariant measure could be calculated by computing the eigenvalues and eigenvectors of the 
+The Ulam's method uses Markov Chain.  Suppose  we have a finite state process, then the invariant measure could be calculated by computing the eigenvalues and eigenvectors of the corresponding Markov matrix. The eigenvector corresponding to eigenvalue 1, is the required invariant measure.
+
+
 ## 5.2 Birkhoff's Theorem
 
 
@@ -92,7 +94,7 @@ The Ulam's method uses Markov Chain.  Suppose  we have a finite state process, t
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjQ2ODQ2OCw4NjI1MjUxMTgsLTI3ND
+eyJoaXN0b3J5IjpbMTMzNDUxNTc5Niw4NjI1MjUxMTgsLTI3ND
 k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
 NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
 YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
