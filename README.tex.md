@@ -28,7 +28,9 @@ This makes sure that once the random seed is fixed, we can change adjust pullbac
 The philosophy of numeric integration is to discretise time, and use summation to replace integration.
  
 Two integration schemes are used for integrations. In most of the scripts, Euler-Maruyama method are used to save computing time. Heun's Method  is only used when stated in the title of the scripts. More sophisticated integration schemes like Runge-Kutta, requires fractional time step, which I found infeasible for stochastic delay differential equation. 
+
 ## 3.1 Euler-Maruyama
+
 The Euler-Maruyama method is basically a stochastic version of the Euler's method for deterministic equation. Under Euler-Maruyama method, our equation becomes
 
 $X(t+dt)-X(t)=X(t)\left[\alpha +\beta X_\tau(t)\right]dt+\sigma X(t)[W(t+dt)-W(t)]$
@@ -36,6 +38,7 @@ $X(t+dt)-X(t)=X(t)\left[\alpha +\beta X_\tau(t)\right]dt+\sigma X(t)[W(t+dt)-W(t
 $W(t+dt)-W(t)$ follows a normal distribution with variance $dt$. Thus, $W(t+dt)-W(t)$ is realised by drawing a sample from the normal distribution with variance $dt$. In fact, in my implementation, a smaller times step called **tDelta** is set, and $dt=R*tDelta$, where $R$ is an integer. Now
 
 $W(t+dt)-W(t)=\displaystyle\Sigma_{i=0}^{R-1}[W(t+(i+1)*tDelta)-W(t+i*tDelta)]$
+
 ## 3.2  Heun's Method
 Heun's Method is supposed to be more accurate than Euler's Method for integrating the deterministic equation, but it is more time- consuming. The scheme for integrating the random variable is the same as Euler-Maruyama, as Heun's Method only improves evaluation of the deterministic gradient. 
 
@@ -52,6 +55,7 @@ However, this $X(t+dt)$ is only an intermediate value. The purpose is to use thi
 $X(t+dt)=X(t)+\frac{1}{2}[\phi(X(t))+\phi(X(t+dt))] dt+\theta(X(t))dW$
 
 # 4. Lyapunov spectrum
+
 The Lyapunov specturm is very useful in determining types of attractors. Negative Lyapunov spectra mean **stable** attractors, and positive Lyapunov spectra mean **unstable** attractors, and Lyapunov spectra with both positive and negative values mean **strange** attractors. 
 
 Although the delay function $X:[-\tau,0]\rightarrow\mathbb{R}$ is infinite dimensional, we estimate lyapunov spectrum using finite points to approximate. 
@@ -75,11 +79,14 @@ $dV=[V(\alpha-\beta X_\tau)-\beta V_\tau X] dt+\sigma V dW$
 Now, implementing the integration scheme we can find $V(t)$, and estimate the Lyapunov Spectrum by choosing a large positive t .
 
 # 5. Invariant Measure
+
 The invariant measure could be understood as a (probability) distribution of particles in the dynamical system when time tends to infinity. Two methods are used to cross-validate the calculation of the invariant measure.
+
 ## 5.1 Ulam's Method
+
 The Ulam's method uses Markov Chain.  Suppose  we have a finite state process, then the invariant measure could be calculated by computing the eigenvalues and eigenvectors of the corresponding Markov matrix. The eigenvector corresponding to eigenvalue 1, is the required invariant measure.
 
-If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ into n equally spaced subintervals. Then, considering each subinterval 
+If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ into N equally spaced subintervals. Then, considering each subinterval as a single state, we have a N-state Markov process.
 ## 5.2 Birkhoff's Theorem
 
 
@@ -94,7 +101,7 @@ If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ i
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzA5MTY3MSw4NjI1MjUxMTgsLTI3ND
+eyJoaXN0b3J5IjpbMTI1MjU5MzM0Nyw4NjI1MjUxMTgsLTI3ND
 k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
 NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
 YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
