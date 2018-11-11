@@ -75,7 +75,7 @@ $dV=[V(\alpha-\beta X_\tau)-\beta V_\tau X] dt+\sigma V dW$
 Now, implementing the integration scheme we can find $V(t)$, and estimate the Lyapunov Spectrum by choosing a large positive t .
 
 # 5. Invariant Measure
-The inva
+The invariant measure could be understood as a (probability) distribution of particles in the dynamical system when time tends to infinity. Two me
 ## 5.1 Ulam's Method
 ## 5.2 Birkhoff's Theorem
 
@@ -91,7 +91,7 @@ The inva
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTg0NTExNiwtMjc0OTc4MDY2LDE5MT
+eyJoaXN0b3J5IjpbMTIzOTQ5MzcwNywtMjc0OTc4MDY2LDE5MT
 E2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0MiwtODY3OTUx
 NjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1MSwtNj
 IxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAzNDUsLTE0MDUw
