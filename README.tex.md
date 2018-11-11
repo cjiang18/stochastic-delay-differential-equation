@@ -93,9 +93,9 @@ If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ i
 
 And the Markov matrix of this process is estimated by:
 
-$p_{ij}=E_t[\frac{\text{\#X(t) in state i and X(t+1) in state j}}{\text{\#X(t) in state j}}]$
+$p_{ij}=\frac{1}{tfinal-tinitial}\Sigma^{tfinal}_{t=tinitial}[\frac{\text{\#X(t) in state i and X(t+1) in state j}}{\text{\#X(t) in state j}}]$
 
-Of course, the expectation is es
+Of course, the expectation is estimated by sample mean
 
 However the process we are dealing with is 
 
@@ -133,10 +133,10 @@ a = the smallest value a path has ever visited
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2NTExNjY3LDg2MjUyNTExOCwtMjc0OT
-c4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0
-MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0Nj
-IwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAz
-NDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MS
-w0NzMzNzAwODFdfQ==
+eyJoaXN0b3J5IjpbMTUxMzk0MTkxNiw4NjI1MjUxMTgsLTI3ND
+k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
+NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
+YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
+MzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1ODUyNz
+EsNDczMzcwMDgxXX0=
 -->
