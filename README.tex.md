@@ -34,13 +34,14 @@ The Euler-Maruyama method is basically a stochastic version of the Euler's metho
 $X(t+dt)-X(t)=X(t)\left[\alpha +\beta X_\tau(t)\right]dt+\sigma X(t)[W(t+dt)-W(t)]$
 
 $W(t+dt)-W(t)$ follows a normal distribution with variance $dt$. Thus, $W(t+dt)-W(t)$ is realised by drawing a sample from the normal distribution with variance $dt$. In fact, in my implementation, a smaller times step called **tDelta** is set, and $dt=R*tDelta$, where $R$ is an integer. Now
-$W(t+dt)-W(t)=\displaystyle\Sigma_{i=0}^{R-1}W(t+(i+1)*tDelta)-Wt+i*tDelta$
-## Heun's Method
 
+$W(t+dt)-W(t)=\displaystyle\Sigma_{i=0}^{R-1}[W(t+(i+1)*tDelta)-W(t+i*tDelta)]$
+## Heun's Method
+Heun's Method for integrating this 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM1NTA3MDQsLTgwMjU4NTI3MSw0Nz
+eyJoaXN0b3J5IjpbLTEzNjc4MTc3NzEsLTgwMjU4NTI3MSw0Nz
 MzNzAwODFdfQ==
 -->
