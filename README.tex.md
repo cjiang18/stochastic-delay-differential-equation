@@ -62,14 +62,16 @@ Since we are dealing with $NHistory$ -dimension, we choose the canonical basis $
 
 $X(t)=e^{tA}X_0,\quad A\in\mathbb{R}^{NHistory\times NHistory}$
 
-Thus starting with $X_o=I$, we have $X(t)=e^{tA}$
+Thus starting with $X_o=I$, we have $X(t)=e^{tA}$. The Lyapunov spectrum is a vector :
+
+$L=\displaymode $
 
 
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjYyODQ2NiwtNjIxNzAyMDM1LC0yNT
-kyMDg0MzIsLTIxMzIxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4
-MTc3NzEsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
+eyJoaXN0b3J5IjpbMzc5ODc1MzQ4LC02MjE3MDIwMzUsLTI1OT
+IwODQzMiwtMjEzMjE2MDM0NSwtMTQwNTA4MzcxMSwtMTM2Nzgx
+Nzc3MSwtODAyNTg1MjcxLDQ3MzM3MDA4MV19
 -->
