@@ -58,12 +58,13 @@ Although the delay function $X:[-\tau,0]\rightarrow\mathbb{R}$ is infinite dimen
 
 For the purpose of more robust computation, we use $NHistory=\tau/dt$ points, which are evenly spaced in the time domain, to represent the function, where $dt$ is set to guarantee that $NHistory$ is an integer. Now the infinite dimensional functions is approximated by a $NHistory$-dimensional object.  Thus, this $NHistory$-dimensional object can be represented by a $NHistory$-dimensional vector, indicating the values the object takes at each time point. 
 
+Since we are dealing with $NHistory$ -dimension, we 
 
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTIwODQzMiwtMjEzMjE2MDM0NSwtMT
-QwNTA4MzcxMSwtMTM2NzgxNzc3MSwtODAyNTg1MjcxLDQ3MzM3
-MDA4MV19
+eyJoaXN0b3J5IjpbLTE1OTA2NzkxLC0yNTkyMDg0MzIsLTIxMz
+IxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4
+NTI3MSw0NzMzNzAwODFdfQ==
 -->
