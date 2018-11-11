@@ -65,7 +65,7 @@ $\Phi:C[I,\mathbb{R}]\rightarrow C[I,\mathbb{R}]\quad \text{where } I=[-\tau,0]$
 
 We use finite points to represent $X_\tau \in C[I,\mathbb{R}]$.
 
-For the purpose of more robust computation, we use $NHistory=\tau/dt$ points, which are evenly spaced in the time domain, to represent the function, where $dt$ is set to guarantee that $NHistory$ is an integer. Now the infinite dimensional functions is approximated by a $NHistory$-dimensional object.  Thus, this $NHistory$-dimensional object can be represented by a $NHistory$-dimensional vector, indicating the values the object takes at each time point. 
+For the purpose of more robust computation, we use $NHistory=\tau/dt$ points, which are evenly spaced in the time domain, to represent the function, where $dt$ is set to guarantee that $NHistory$ is an integer. Now the delay function is approximated by a $NHistory$-dimensional object.  Thus, this $NHistory$-dimensional object can be represented by a $NHistory$-dimensional vector, indicating the values the object takes at each time point. (i.e. when $t=\tau$ ) 
 
 Since we are dealing with $NHistory$ -dimension, we choose the canonical basis $\{e_1,e_2,\dots, e_{Nhistory}\}$.  Aligning them together gives us the identity matrix. To estimate the Lyapunov spectrum,  we are going to see how this canonical basis develops when time span is very large, under the linearisation of the of stochastic delay differential equation. Since this system is autonomous, the dynamics of the tangent equation can be written in the form 
 
@@ -165,11 +165,11 @@ $dX=-\alpha X_\tau(1+X)dt+\sigma XdW$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzMzMxMDI4LC0yMjAzMjE1NTMsMTM5OT
-MzMzAwOCwtODQwNTU2OTU5LDE2NDY0NDAxNDMsMTQxMzg0NjEw
-LC0xNTM3NjI3MjksODQ4OTU0MDQ4LDExNzM0NTA3NjAsMTU3NT
-gwMzI3Miw4NjI1MjUxMTgsLTI3NDk3ODA2NiwxOTExNjMwOTU4
-LC0xMDEzODM3OTUwLC02MDg4MzUzNDIsLTg2Nzk1MTY1LDEzND
-I2NzE4NjQsMjY1ODc0MTQwLDE0NDYyMDM0NTEsLTYyMTcwMjAz
-NV19
+eyJoaXN0b3J5IjpbMTEwOTYzOTI0MSwtMjIwMzIxNTUzLDEzOT
+kzMzMwMDgsLTg0MDU1Njk1OSwxNjQ2NDQwMTQzLDE0MTM4NDYx
+MCwtMTUzNzYyNzI5LDg0ODk1NDA0OCwxMTczNDUwNzYwLDE1Nz
+U4MDMyNzIsODYyNTI1MTE4LC0yNzQ5NzgwNjYsMTkxMTYzMDk1
+OCwtMTAxMzgzNzk1MCwtNjA4ODM1MzQyLC04Njc5NTE2NSwxMz
+QyNjcxODY0LDI2NTg3NDE0MCwxNDQ2MjAzNDUxLC02MjE3MDIw
+MzVdfQ==
 -->
