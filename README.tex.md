@@ -130,7 +130,8 @@ The Birkhoff's Theorem states that given $(X,\mathscr{F},\mu)$ is a probability 
 
 $lim(n\rightarrow\infty)\frac{1}{n}\Sigma_{i=0}^{n-1}I_A(f^i(x))=\mu(A)$
 
-This means that 
+This means that if $X=\{x_1,x_2,\dots,x_n\}$ is finite state, then
+
 
 
 
@@ -144,11 +145,11 @@ This means that
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzg0NjEwLC0xNTM3NjI3MjksODQ4OT
-U0MDQ4LDExNzM0NTA3NjAsMTU3NTgwMzI3Miw4NjI1MjUxMTgs
-LTI3NDk3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MD
-g4MzUzNDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQw
-LDE0NDYyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMT
-MyMTYwMzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1
-ODUyNzFdfQ==
+eyJoaXN0b3J5IjpbMjA3MTkyOTU5MCwxNDEzODQ2MTAsLTE1Mz
+c2MjcyOSw4NDg5NTQwNDgsMTE3MzQ1MDc2MCwxNTc1ODAzMjcy
+LDg2MjUyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5NTgsLTEwMT
+M4Mzc5NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMTM0MjY3MTg2
+NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1LC0yNT
+kyMDg0MzIsLTIxMzIxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4
+MTc3NzFdfQ==
 -->
