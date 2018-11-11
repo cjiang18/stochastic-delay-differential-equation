@@ -60,17 +60,19 @@ For the purpose of more robust computation, we use $NHistory=\tau/dt$ points, wh
 
 Since we are dealing with $NHistory$ -dimension, we choose the canonical basis $\{e_1,e_2,\dots, e_{Nhistory}\}$.  Aligning them together gives us the identity matrix. To estimate the Lyapunov spectrum,  we are going to see how this canonical basis develops when time span is very large, under the linearisation of the of stochastic delay differential equation. Since this system is autonomous, the dynamics of the tangent equation can be written in the form 
 
-$X(t)=e^{tA}X_0,\quad A\in\mathbb{R}^{NHistory\times NHistory}$
+$V(t)=e^{tA}V_0,\quad A\in\mathbb{R}^{NHistory\times NHistory}$
 
-Thus starting with $X_o=I$, we have $X(t)=e^{tA}$. The Lyapunov spectrum is a vector :
+Thus starting with $V_o=I$, we have $V(t)=e^{tA}$. The Lyapunov spectrum is a vector :
 
-$L=\lim(t\rightarrow \infty)\{\frac{1}{t}\log ( \lambda_X(t))\}$
+$L=\lim(t\rightarrow \infty)\{\frac{1}{t}\log ( \lambda_V(t))\}$
 
-where $\lambda_X(t)$ is the vector of all real parts of eigenvalues of $X(t)$. 
+where $\lambda_X(t)$ is the vector of all real parts of eigenvalues of $V(t)$. 
 
 Working from first principles, the tangent equation is found to be
 
 $dV=[V(\alpha-\beta X_\tau)-\beta V_\tau X]dt+\sigma VdW$
+
+Now, implementing the integration scheme we can find $V(t)$, and 
 
 
 
@@ -79,8 +81,9 @@ $dV=[V(\alpha-\beta X_\tau)-\beta V_\tau X]dt+\sigma VdW$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODgzNTM0MiwtODY3OTUxNjUsMTM0Mj
-Y3MTg2NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1
-LC0yNTkyMDg0MzIsLTIxMzIxNjAzNDUsLTE0MDUwODM3MTEsLT
-EzNjc4MTc3NzEsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
+eyJoaXN0b3J5IjpbNDQ0MjExNDE4LC02MDg4MzUzNDIsLTg2Nz
+k1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0NDYyMDM0NTEs
+LTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYwMzQ1LC0xND
+A1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1ODUyNzEsNDczMzcw
+MDgxXX0=
 -->
