@@ -45,13 +45,15 @@ $dX=\phi(X,t) dt+\theta(X,t)dW$
 
 Then, under Heun's method, we first use the same technique as Euler's method to find the value of X(t+dt) by
 
-$X(t+dt)=X(t)+\phi(X,t) dt+\theta(X,t)dW$
+$X(t+dt)=X(t)+\phi(X(t)) dt+\theta(X,t)dW$
 
-However, this $X(t+dt)$ is only an intermediate value. The purpose is to use this to evaluate $\phi(t+dt)$ and then use 
+However, this $X(t+dt)$ is only an intermediate value. The purpose is to use this to evaluate $\phi(t+dt)$ and then use the average gradient to evaluate $X(t+dt)$ again.
+
+$X(t+dt)=X(t)+\frac{1}{2}[\phi(X,t) dt+\theta(X,t)dW$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2NTI0MzI2LC0xMzY3ODE3NzcxLC04MD
-I1ODUyNzEsNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbLTEyMDQ2ODkwOTksLTEzNjc4MTc3NzEsLT
+gwMjU4NTI3MSw0NzMzNzAwODFdfQ==
 -->
