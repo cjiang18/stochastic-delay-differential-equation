@@ -95,11 +95,16 @@ However the process we are dealing with is
 
 $\Phi:C[I,\mathbb{R}]\rightarrow C[I,\mathbb{R}]\quad \text{where } I=[-\tau,0]$
 
+What should we do?
+
+#### Step1:
 We have to map $C[I,\mathbb{R}]$ onto $\mathbb{R}$, so we can define a Markov process that we can work with. A natural choice is an equivalence relation on $C[I,\mathbb{R}]$:
 
 $Y_\tau\equiv X_\tau \text{ iff }Y_\tau(0)=X_\tau(0)$
 
 Thus $\mu(X\tau)=X_\tau(0)$ is the required mapping which maps $C[I,\mathbb{R}]$ onto $\mathbb{R}$
+#### Step2:
+
 
 ## 5.2 Birkhoff's Theorem
 
@@ -115,10 +120,10 @@ Thus $\mu(X\tau)=X_\tau(0)$ is the required mapping which maps $C[I,\mathbb{R}]$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMzE3NzYzLDg2MjUyNTExOCwtMjc0OT
-c4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0
-MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0Nj
-IwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAz
-NDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MS
-w0NzMzNzAwODFdfQ==
+eyJoaXN0b3J5IjpbMTIyNzY4OTI1MSw4NjI1MjUxMTgsLTI3ND
+k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
+NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
+YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
+MzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1ODUyNz
+EsNDczMzcwMDgxXX0=
 -->
