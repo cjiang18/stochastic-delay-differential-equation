@@ -54,11 +54,11 @@ $X(t+dt)=X(t)+\frac{1}{2}[\phi(X(t))+\phi(X(t+dt))] dt+\theta(X(t))dW$
 # Lyapunov spectrum
 The Lyapunov specturm is very useful in determining types of attractors. Negative Lyapunov spectra mean **stable** attractors, and positive Lyapunov spectra mean **unstable** attractors, and Lyapunov spectra with both positive and negative values mean **strange** attractors. 
 
-Although the delay equation $X:[-\tau,0]\rightarrow\mathbb{R}$ is infinite dimensional, we estimate lyapunov spectrum using finite points to approximate. 
+Although the delay function $X:[-\tau,0]\rightarrow\mathbb{R}$ is infinite dimensional, we estimate lyapunov spectrum using finite points to approximate. 
 
-For the purpose of more robust computation, we use $N=\tau/$
-
+For the purpose of more robust computation, we use $N=\tau/dt$
+points to represent the function. Since *dt* is usually set 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQ1Mzg2NTYsLTE0MDUwODM3MTEsLT
-EzNjc4MTc3NzEsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
+eyJoaXN0b3J5IjpbMjA2MDQ2MjQ0MCwtMTQwNTA4MzcxMSwtMT
+M2NzgxNzc3MSwtODAyNTg1MjcxLDQ3MzM3MDA4MV19
 -->
