@@ -136,6 +136,9 @@ $\mu(X=x_i)=\frac{\text{number of times the path visited }x_i}{\text{number of a
 
 We use the same mapping to reduce our infinite dimensional object to one dimension with finite states as what we have done in Ulam's method.
 
+# Another Two Equations
+
+Apart from the Logistic equation, the same scripts were also rwr
 
 
 
@@ -148,11 +151,11 @@ We use the same mapping to reduce our infinite dimensional object to one dimensi
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTMzMzAwOCwtODQwNTU2OTU5LDE2ND
-Y0NDAxNDMsMTQxMzg0NjEwLC0xNTM3NjI3MjksODQ4OTU0MDQ4
-LDExNzM0NTA3NjAsMTU3NTgwMzI3Miw4NjI1MjUxMTgsLTI3ND
-k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
-NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
-YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
-MzQ1XX0=
+eyJoaXN0b3J5IjpbLTgzMTAyMDk3NCwxMzk5MzMzMDA4LC04ND
+A1NTY5NTksMTY0NjQ0MDE0MywxNDEzODQ2MTAsLTE1Mzc2Mjcy
+OSw4NDg5NTQwNDgsMTE3MzQ1MDc2MCwxNTc1ODAzMjcyLDg2Mj
+UyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5
+NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNj
+U4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0
+MzJdfQ==
 -->
