@@ -75,13 +75,13 @@ Thus starting with $V_o=I$, we have $V(t)=e^{tA}$. The Lyapunov spectrum is a ve
 
 $L=\lim(t\rightarrow \infty)\{\frac{1}{t}\log ( \lambda_V(t))\}$
 
-where $\lambda_X(t)$ is the vector of all real parts of eigenvalues of $V(t)$. 
+where $\lambda_V(t)$ is the vector of all real parts of eigenvalues of $V(t)$. 
 
 Working from first principles, the tangent equation is found to be
 
 $dV=[V(\alpha-\beta X_\tau)-\beta V_\tau X] dt+\sigma V dW$
 
-Now, implementing the integration scheme we can find $V(t)$, and estimate the Lyapunov Spectrum by choosing a large positive t .
+Now by implementing the integration scheme, we can find $V(t)$, and estimate the Lyapunov Spectrum by choosing a large positive t .
 
 #  Invariant Measure
 
@@ -165,11 +165,11 @@ $dX=-\alpha X_\tau(1+X)dt+\sigma XdW$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDQxNzMxNSwtMjIwMzIxNTUzLDEzOT
-kzMzMwMDgsLTg0MDU1Njk1OSwxNjQ2NDQwMTQzLDE0MTM4NDYx
-MCwtMTUzNzYyNzI5LDg0ODk1NDA0OCwxMTczNDUwNzYwLDE1Nz
-U4MDMyNzIsODYyNTI1MTE4LC0yNzQ5NzgwNjYsMTkxMTYzMDk1
-OCwtMTAxMzgzNzk1MCwtNjA4ODM1MzQyLC04Njc5NTE2NSwxMz
-QyNjcxODY0LDI2NTg3NDE0MCwxNDQ2MjAzNDUxLC02MjE3MDIw
-MzVdfQ==
+eyJoaXN0b3J5IjpbLTE3OTE1Njg2OTAsLTIyMDMyMTU1MywxMz
+k5MzMzMDA4LC04NDA1NTY5NTksMTY0NjQ0MDE0MywxNDEzODQ2
+MTAsLTE1Mzc2MjcyOSw4NDg5NTQwNDgsMTE3MzQ1MDc2MCwxNT
+c1ODAzMjcyLDg2MjUyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5
+NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMT
+M0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAy
+MDM1XX0=
 -->
