@@ -62,14 +62,14 @@ Since we are dealing with $NHistory$ -dimension, we choose the canonical basis $
 
 $X(t)=e^{tA}X_0,\quad A\in\mathbb{R}^{NHistory\times NHistory}$
 
-
+Thus starting with $X_o=I$, we have $X(t)=e^{tA}$
 
 
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ4NzMxMDIsLTYyMTcwMjAzNSwtMj
-U5MjA4NDMyLC0yMTMyMTYwMzQ1LC0xNDA1MDgzNzExLC0xMzY3
-ODE3NzcxLC04MDI1ODUyNzEsNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbMTY1NjYyODQ2NiwtNjIxNzAyMDM1LC0yNT
+kyMDg0MzIsLTIxMzIxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4
+MTc3NzEsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
 -->
