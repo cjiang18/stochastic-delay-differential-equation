@@ -55,7 +55,7 @@ However, this $X(t+dt)$ is only an intermediate value. The purpose is to use thi
 
 $X(t+dt)=X(t)+\frac{1}{2}[\phi(X(t))+\phi(X(t+dt))] dt+\theta(X(t))dW$
 
-# 4. Lyapunov spectrum
+# Lyapunov spectrum
 
 The Lyapunov specturm is very useful in determining types of attractors. Negative Lyapunov spectra mean **stable** attractors, and positive Lyapunov spectra mean **unstable** attractors, and Lyapunov spectra with both positive and negative values mean **strange** attractors. 
 
@@ -79,11 +79,11 @@ $dV=[V(\alpha-\beta X_\tau)-\beta V_\tau X] dt+\sigma V dW$
 
 Now, implementing the integration scheme we can find $V(t)$, and estimate the Lyapunov Spectrum by choosing a large positive t .
 
-# 5. Invariant Measure
+#  Invariant Measure
 
 The invariant measure could be understood as a (probability) distribution of particles in the dynamical system when time tends to infinity. Two methods are used to cross-validate the calculation of the invariant measure.
 
-## 5.1 Ulam's Method
+##  Ulam's Method
 
 The Ulam's method uses Markov Chain.
 
@@ -124,7 +124,7 @@ Now, we have reduced our problem to what we have discussed at the very beginning
 
 
 
-## 5.2 Birkhoff's Theorem
+##  Birkhoff's Theorem
 
 The Birkhoff's Theorem states that given $(X,\mathscr{F},\mu)$ is a probability space and $f:X\rightarrow X$ a measurable function such that $\mu$ is invariant with respect to f then we have:
 
@@ -142,11 +142,11 @@ $lim(n\rightarrow\infty)\frac{1}{n}\Sigma_{i=0}^{n-1}I_A(f^i(x))=\mu(A)$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTA5NDI3NzAsLTE1Mzc2MjcyOSw4ND
-g5NTQwNDgsMTE3MzQ1MDc2MCwxNTc1ODAzMjcyLDg2MjUyNTEx
-OCwtMjc0OTc4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLT
-YwODgzNTM0MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQx
-NDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLT
-IxMzIxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgw
-MjU4NTI3MV19
+eyJoaXN0b3J5IjpbMTQxMzg0NjEwLC0xNTM3NjI3MjksODQ4OT
+U0MDQ4LDExNzM0NTA3NjAsMTU3NTgwMzI3Miw4NjI1MjUxMTgs
+LTI3NDk3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MD
+g4MzUzNDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQw
+LDE0NDYyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMT
+MyMTYwMzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1
+ODUyNzFdfQ==
 -->
