@@ -87,21 +87,7 @@ for ii in range(len(pullback)):
                                 xAll[:, i - 1 + NHistory] * np.sum(
             dW[R * i:R * (i + 1)])
 
-        '''solving tangent vector'''
-
-        # v[j, i + 1] = v[j, i] + v[j, i] * (
-        #           alpha - beta * xAll[j,i]) * dt - vAll[j,i]) * beta * \
-        #           x[j, i] * dt + sigma * v[j, i] * np.sum(dW[j, R * i:R * (i + 1)])
-        # vAll = np.concatenate((vHistory, v), axis=-1)
-
-        '''plotting lyapunov exponent '''
-
-        # plt.figure()
-        # lya = [np.log(abs(v[j,kk]))/t[kk] for kk in range(len(v[j,:]))]
-        # plt.plot(t, lya,'.')
-        # plt.xlabel('time')
-        # plt.ylabel('Lyapunov exponent')
-        # plt.title('xinitial = ' + str(xinitial) + ', pullback = ' + str(pullback)
+       
 
     '''plotting '''
     for i in range(M):
