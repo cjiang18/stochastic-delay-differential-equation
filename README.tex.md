@@ -138,7 +138,10 @@ We use the same mapping to reduce our infinite dimensional object to one dimensi
 
 # Another Two Equations
 
-Apart from the Logistic equation, the same scripts were also written for other two equations, which are the predator-pray equation, and Wreight's conjecture.
+Apart from the Logistic equation, the same scripts were also written for other two equations, which are the Predator-Pray equation, and Wreight's conjecture.
+
+Predator-Pray:
+
 
 
 
@@ -152,11 +155,11 @@ Apart from the Logistic equation, the same scripts were also written for other t
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDA3MzQ1LDEzOTkzMzMwMDgsLTg0MD
-U1Njk1OSwxNjQ2NDQwMTQzLDE0MTM4NDYxMCwtMTUzNzYyNzI5
-LDg0ODk1NDA0OCwxMTczNDUwNzYwLDE1NzU4MDMyNzIsODYyNT
-I1MTE4LC0yNzQ5NzgwNjYsMTkxMTYzMDk1OCwtMTAxMzgzNzk1
-MCwtNjA4ODM1MzQyLC04Njc5NTE2NSwxMzQyNjcxODY0LDI2NT
-g3NDE0MCwxNDQ2MjAzNDUxLC02MjE3MDIwMzUsLTI1OTIwODQz
-Ml19
+eyJoaXN0b3J5IjpbLTIyMDMyMTU1MywxMzk5MzMzMDA4LC04ND
+A1NTY5NTksMTY0NjQ0MDE0MywxNDEzODQ2MTAsLTE1Mzc2Mjcy
+OSw4NDg5NTQwNDgsMTE3MzQ1MDc2MCwxNTc1ODAzMjcyLDg2Mj
+UyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5
+NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNj
+U4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0
+MzJdfQ==
 -->
