@@ -72,7 +72,7 @@ Working from first principles, the tangent equation is found to be
 
 $dV=[V(\alpha-\beta X_\tau)-\beta V_\tau X]dt+\sigma VdW$
 
-Now, implementing the integration scheme we can find $V(t)$, and 
+Now, implementing the integration scheme we can find $V(t)$, and estimate the Lyapunov Spectrum by choosing a large positive t.
 
 
 
@@ -81,9 +81,9 @@ Now, implementing the integration scheme we can find $V(t)$, and
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0MjExNDE4LC02MDg4MzUzNDIsLTg2Nz
-k1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0NDYyMDM0NTEs
-LTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYwMzQ1LC0xND
-A1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1ODUyNzEsNDczMzcw
-MDgxXX0=
+eyJoaXN0b3J5IjpbLTEwMTM4Mzc5NTAsLTYwODgzNTM0MiwtOD
+Y3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1
+MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAzNDUsLT
+E0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MSw0NzMz
+NzAwODFdfQ==
 -->
