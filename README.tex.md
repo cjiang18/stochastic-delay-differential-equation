@@ -89,6 +89,10 @@ The Ulam's method uses Markov Chain.  Suppose  we have a finite state process, t
 
 If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ into N equally spaced subintervals. Then, considering each subinterval as a single state, we have a N-state Markov process.
 
+However the process we are dealing with is 
+
+$\Phi:C[-\tau,0]\rightarrow C[-\tau,o$
+
 ## 5.2 Birkhoff's Theorem
 
 
@@ -103,7 +107,7 @@ If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ i
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNDkyMjg0OSw4NjI1MjUxMTgsLTI3ND
+eyJoaXN0b3J5IjpbLTk0NTY2Njc0OSw4NjI1MjUxMTgsLTI3ND
 k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
 NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
 YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
