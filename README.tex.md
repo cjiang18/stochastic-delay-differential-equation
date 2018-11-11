@@ -66,7 +66,11 @@ Thus starting with $X_o=I$, we have $X(t)=e^{tA}$. The Lyapunov spectrum is a ve
 
 $L=\lim(t\rightarrow \infty)\{\frac{1}{t}\log ( \lambda_X(t))\}$
 
+where $\lambda_X(t)$ is the vector of all real parts of eigenvalues of $X(t)$. 
+
 Working from first principles, the tangent equation is found to be
+
+$$
 
 
 
@@ -75,7 +79,7 @@ Working from first principles, the tangent equation is found to be
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MDYxMzc4LDEzNDI2NzE4NjQsMjY1OD
+eyJoaXN0b3J5IjpbOTQ5ODgyMTQ5LDEzNDI2NzE4NjQsMjY1OD
 c0MTQwLDE0NDYyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMy
 LC0yMTMyMTYwMzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC
 04MDI1ODUyNzEsNDczMzcwMDgxXX0=
