@@ -56,7 +56,9 @@ The Lyapunov specturm is very useful in determining types of attractors. Negativ
 
 Although the delay equation $X:[-\tau,0]\rightarrow\mathbb{R}$ is infinite dimensional, we estimate lyapunov spectrum using finite points to approximate. 
 
+For the purpose of more robust computation, we use 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTQzNTEyNSwtMTQwNTA4MzcxMSwtMT
-M2NzgxNzc3MSwtODAyNTg1MjcxLDQ3MzM3MDA4MV19
+eyJoaXN0b3J5IjpbMjI0MTY0MDc0LC0xNDA1MDgzNzExLC0xMz
+Y3ODE3NzcxLC04MDI1ODUyNzEsNDczMzcwMDgxXX0=
 -->
