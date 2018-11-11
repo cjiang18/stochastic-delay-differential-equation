@@ -77,7 +77,7 @@ alpha - beta * xAll[i]) * dt - vAll[:, i] * beta * xAll[i + NHistory] * dt + sig
 i + NHistory - 1] * np.sum(
 
 dW[R * i:R * (i + 1)])
-$dV=V(\alpha-\beta X_\tau)-V$
+$dV=[V(\alpha-\beta X_\tau)-\beta V_\tau$
 
 
 
@@ -86,8 +86,8 @@ $dV=V(\alpha-\beta X_\tau)-V$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODE1ODA0OCwxMzQyNjcxODY0LDI2NT
-g3NDE0MCwxNDQ2MjAzNDUxLC02MjE3MDIwMzUsLTI1OTIwODQz
-MiwtMjEzMjE2MDM0NSwtMTQwNTA4MzcxMSwtMTM2NzgxNzc3MS
-wtODAyNTg1MjcxLDQ3MzM3MDA4MV19
+eyJoaXN0b3J5IjpbLTEwMzc2NTIzODQsMTM0MjY3MTg2NCwyNj
+U4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0
+MzIsLTIxMzIxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3Nz
+EsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
 -->
