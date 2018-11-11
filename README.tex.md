@@ -79,7 +79,7 @@ The invariant measure could be understood as a (probability) distribution of par
 ## 5.1 Ulam's Method
 The Ulam's method uses Markov Chain.  Suppose  we have a finite state process, then the invariant measure could be calculated by computing the eigenvalues and eigenvectors of the corresponding Markov matrix. The eigenvector corresponding to eigenvalue 1, is the required invariant measure.
 
-
+If  we have $X:[a,b]
 ## 5.2 Birkhoff's Theorem
 
 
@@ -94,10 +94,10 @@ The Ulam's method uses Markov Chain.  Suppose  we have a finite state process, t
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDUxNTc5Niw4NjI1MjUxMTgsLTI3ND
-k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
-NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
-YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
-MzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1ODUyNz
-EsNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbOTI2NzUxNTQyLDg2MjUyNTExOCwtMjc0OT
+c4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0
+MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0Nj
+IwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAz
+NDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MS
+w0NzMzNzAwODFdfQ==
 -->
