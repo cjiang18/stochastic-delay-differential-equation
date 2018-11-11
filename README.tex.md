@@ -75,8 +75,9 @@ $dV=[V(\alpha-\beta X_\tau)-\beta V_\tau X] dt+\sigma V dW$
 Now, implementing the integration scheme we can find $V(t)$, and estimate the Lyapunov Spectrum by choosing a large positive t .
 
 # 5. Invariant Measure
-The invariant measure could be understood as a (probability) distribution of particles in the dynamical system when time tends to infinity. Two me
+The invariant measure could be understood as a (probability) distribution of particles in the dynamical system when time tends to infinity. Two methods are used to cross-validate the calculation of the invariant measure.
 ## 5.1 Ulam's Method
+The Ulam's method uses Markov Chain. 
 ## 5.2 Birkhoff's Theorem
 
 
@@ -91,10 +92,10 @@ The invariant measure could be understood as a (probability) distribution of par
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTQ5MzcwNywtMjc0OTc4MDY2LDE5MT
-E2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0MiwtODY3OTUx
-NjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1MSwtNj
-IxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAzNDUsLTE0MDUw
-ODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MSw0NzMzNzAwOD
-FdfQ==
+eyJoaXN0b3J5IjpbODYyNTI1MTE4LC0yNzQ5NzgwNjYsMTkxMT
+YzMDk1OCwtMTAxMzgzNzk1MCwtNjA4ODM1MzQyLC04Njc5NTE2
+NSwxMzQyNjcxODY0LDI2NTg3NDE0MCwxNDQ2MjAzNDUxLC02Mj
+E3MDIwMzUsLTI1OTIwODQzMiwtMjEzMjE2MDM0NSwtMTQwNTA4
+MzcxMSwtMTM2NzgxNzc3MSwtODAyNTg1MjcxLDQ3MzM3MDA4MV
+19
 -->
