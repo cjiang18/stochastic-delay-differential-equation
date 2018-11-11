@@ -93,7 +93,7 @@ However the process we are dealing with is
 
 $\Phi:C[I,\mathbb{R}]\rightarrow C[I,\mathbb{R}]\quad \text{where } I=[-\tau,0]$
 
-We have to map $C[I,\mathbb{R}]$ onto $\mathbb{R}$, so we can define a markov proces
+We have to map $C[I,\mathbb{R}]$ onto $\mathbb{R}$, so we can define a Markov process that we can work with. We define an
 ## 5.2 Birkhoff's Theorem
 
 
@@ -108,10 +108,10 @@ We have to map $C[I,\mathbb{R}]$ onto $\mathbb{R}$, so we can define a markov pr
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjQ2MjQxNiw4NjI1MjUxMTgsLTI3ND
-k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
-NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
-YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
-MzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1ODUyNz
-EsNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbLTE2NDk0NDIzMjUsODYyNTI1MTE4LC0yNz
+Q5NzgwNjYsMTkxMTYzMDk1OCwtMTAxMzgzNzk1MCwtNjA4ODM1
+MzQyLC04Njc5NTE2NSwxMzQyNjcxODY0LDI2NTg3NDE0MCwxND
+Q2MjAzNDUxLC02MjE3MDIwMzUsLTI1OTIwODQzMiwtMjEzMjE2
+MDM0NSwtMTQwNTA4MzcxMSwtMTM2NzgxNzc3MSwtODAyNTg1Mj
+cxLDQ3MzM3MDA4MV19
 -->
