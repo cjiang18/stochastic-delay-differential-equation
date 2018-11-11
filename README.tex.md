@@ -52,10 +52,10 @@ However, this $X(t+dt)$ is only an intermediate value. The purpose is to use thi
 $X(t+dt)=X(t)+\frac{1}{2}[\phi(X(t))+\phi(X(t+dt))] dt+\theta(X(t))dW$
 
 # Lyapunov spectrum
-
+The Lyapunov specturm is very useful in determining
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUwODM3MTEsLTEzNjc4MTc3NzEsLT
-gwMjU4NTI3MSw0NzMzNzAwODFdfQ==
+eyJoaXN0b3J5IjpbMTg0NDI0ODkxNiwtMTQwNTA4MzcxMSwtMT
+M2NzgxNzc3MSwtODAyNTg1MjcxLDQ3MzM3MDA4MV19
 -->
