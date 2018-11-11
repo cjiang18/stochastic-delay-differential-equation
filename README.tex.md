@@ -142,7 +142,23 @@ Apart from the Logistic equation, the same scripts were also written for other t
 
 Predator-Pray:
 
+$ｄX=X(r_1-a_11X_\tau)$
 
+xAll[:, 0, i - 1 + NHistory] * (
+
+r_1 - a_11 * xAll[:, 0, i] - a_12 * xAll[:, 1, i - 1 + NHistory]) * dt + sigma * \
+
+xAll[:, 0, i - 1 + NHistory] * np.sum(
+
+dW[R * i:R * (i + 1)])
+
+xAll[:, 1, i + NHistory] = xAll[:, 1, i - 1 + NHistory] + xAll[:, 1, i - 1 + NHistory] * (
+
+-r_2 + a_21 * xAll[:, 0, i - 1 + NHistory] - a_22 * xAll[:, 1, i])*dt + sigma * \
+
+xAll[:, 1, i - 1 + NHistory] * np.sum(
+
+dW[R * i:R * (i + 1)])
 
 
 
@@ -155,11 +171,11 @@ Predator-Pray:
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDMyMTU1MywxMzk5MzMzMDA4LC04ND
-A1NTY5NTksMTY0NjQ0MDE0MywxNDEzODQ2MTAsLTE1Mzc2Mjcy
-OSw4NDg5NTQwNDgsMTE3MzQ1MDc2MCwxNTc1ODAzMjcyLDg2Mj
-UyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5
-NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNj
-U4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0
-MzJdfQ==
+eyJoaXN0b3J5IjpbMTk0NDE1NDEzMSwtMjIwMzIxNTUzLDEzOT
+kzMzMwMDgsLTg0MDU1Njk1OSwxNjQ2NDQwMTQzLDE0MTM4NDYx
+MCwtMTUzNzYyNzI5LDg0ODk1NDA0OCwxMTczNDUwNzYwLDE1Nz
+U4MDMyNzIsODYyNTI1MTE4LC0yNzQ5NzgwNjYsMTkxMTYzMDk1
+OCwtMTAxMzgzNzk1MCwtNjA4ODM1MzQyLC04Njc5NTE2NSwxMz
+QyNjcxODY0LDI2NTg3NDE0MCwxNDQ2MjAzNDUxLC02MjE3MDIw
+MzVdfQ==
 -->
