@@ -117,7 +117,7 @@ b = the largest  value a path has ever visited
 a = the smallest value a path has ever visited
 
 
-Now, we have reduced our problem to what we have discussed at the very beginning of this section. So then we estimate the the Markov matrix and compute its normalised eigenvector with  1.
+Now, we have reduced our problem to what we have discussed at the very beginning of this section. So then we estimate the the Markov matrix and compute its normalised eigenvector with  eigenvalue 1.
 
 
 
@@ -135,10 +135,10 @@ Now, we have reduced our problem to what we have discussed at the very beginning
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTgwMzI3Miw4NjI1MjUxMTgsLTI3ND
-k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
-NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
-YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
-MzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1ODUyNz
-EsNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbMTE3MzQ1MDc2MCwxNTc1ODAzMjcyLDg2Mj
+UyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5
+NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNj
+U4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0
+MzIsLTIxMzIxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3Nz
+EsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
 -->
