@@ -125,7 +125,7 @@ Now, we have reduced our problem to what we have discussed at the very beginning
 
 
 ## 5.2 Birkhoff's Theorem
-
+The Birkhoff's Theorem states that given $(X,\mathfrak{F})$
 
 
 
@@ -138,10 +138,11 @@ Now, we have reduced our problem to what we have discussed at the very beginning
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4OTU0MDQ4LDExNzM0NTA3NjAsMTU3NT
-gwMzI3Miw4NjI1MjUxMTgsLTI3NDk3ODA2NiwxOTExNjMwOTU4
-LC0xMDEzODM3OTUwLC02MDg4MzUzNDIsLTg2Nzk1MTY1LDEzND
-I2NzE4NjQsMjY1ODc0MTQwLDE0NDYyMDM0NTEsLTYyMTcwMjAz
-NSwtMjU5MjA4NDMyLC0yMTMyMTYwMzQ1LC0xNDA1MDgzNzExLC
-0xMzY3ODE3NzcxLC04MDI1ODUyNzEsNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbLTE1Mzc2MjcyOSw4NDg5NTQwNDgsMTE3Mz
+Q1MDc2MCwxNTc1ODAzMjcyLDg2MjUyNTExOCwtMjc0OTc4MDY2
+LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0MiwtOD
+Y3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1
+MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAzNDUsLT
+E0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MSw0NzMz
+NzAwODFdfQ==
 -->
