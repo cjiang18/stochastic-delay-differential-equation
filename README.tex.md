@@ -1,5 +1,5 @@
 
-# 1. Introduction  
+# Introduction  
 This is a summer project I did in 2018 summer in Imperial College London. The main task is to simulate the following logistic stochastic delay differential equation. 
 
 $dX=X( \alpha -\beta X_\tau )dt+\sigma X dW$
@@ -10,7 +10,7 @@ We were also ask to simulate the system when a pullback in time is set, in order
 
 I am going to explain some of the algorithms I used in the scripts.
 
-# 2. How Noise Realisation Is Implemented When Pullback Exists
+# How Noise Realisation Is Implemented When Pullback Exists
 
 A pullback means we have negative time. For example, if pullback is 200, then the system starts at t = -200.  We want to make sure that the noise realisation should be the same at each time point, so we can adjust the value of pullback and explore pullback attractors.  
 
@@ -24,12 +24,12 @@ Stream B runs backward from t = 0 to $-\infty$.
 
 This makes sure that once the random seed is fixed, we can change adjust pullback and the final time as we wish without altering the noise.
 
-# 3. Stochastic Integration Schemes
+# Stochastic Integration Schemes
 The philosophy of numeric integration is to discretise time, and use summation to replace integration.
  
 Two integration schemes are used for integrations. In most of the scripts, Euler-Maruyama method are used to save computing time. Heun's Method  is only used when stated in the title of the scripts. More sophisticated integration schemes like Runge-Kutta, requires fractional time step, which I found infeasible for stochastic delay differential equation. 
 
-## 3.1 Euler-Maruyama
+##  Euler-Maruyama
 
 The Euler-Maruyama method is basically a stochastic version of the Euler's method for deterministic equation. Under Euler-Maruyama method, our equation becomes
 
@@ -39,7 +39,7 @@ $W(t+dt)-W(t)$ follows a normal distribution with variance $dt$. Thus, $W(t+dt)-
 
 $W(t+dt)-W(t)=\displaystyle\Sigma_{i=0}^{R-1}[W(t+(i+1)*tDelta)-W(t+i*tDelta)]$
 
-## 3.2  Heun's Method
+##   Heun's Method
 
 Heun's Method is supposed to be more accurate than Euler's Method for integrating the deterministic equation, but it is more time- consuming. The scheme for integrating the random variable is the same as Euler-Maruyama, as Heun's Method only improves evaluation of the deterministic gradient. 
 
@@ -125,6 +125,7 @@ Now, we have reduced our problem to what we have discussed at the very beginning
 
 
 ## 5.2 Birkhoff's Theorem
+
 The Birkhoff's Theorem states that given $(X,\mathscr{F},\mu)$ is a probability space and $f:X\rightarrow X$ a measurable function such that $\mu$ is invariant with respect to f then we have:
 
 $lim(n\rightarrow\infty)\frac{1}{n}\Sigma_{i=0}^{n-1}I_A(f^i(x))=\mu(A)$
@@ -141,11 +142,11 @@ $lim(n\rightarrow\infty)\frac{1}{n}\Sigma_{i=0}^{n-1}I_A(f^i(x))=\mu(A)$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDc5NjUwNywtMTUzNzYyNzI5LDg0OD
-k1NDA0OCwxMTczNDUwNzYwLDE1NzU4MDMyNzIsODYyNTI1MTE4
-LC0yNzQ5NzgwNjYsMTkxMTYzMDk1OCwtMTAxMzgzNzk1MCwtNj
-A4ODM1MzQyLC04Njc5NTE2NSwxMzQyNjcxODY0LDI2NTg3NDE0
-MCwxNDQ2MjAzNDUxLC02MjE3MDIwMzUsLTI1OTIwODQzMiwtMj
-EzMjE2MDM0NSwtMTQwNTA4MzcxMSwtMTM2NzgxNzc3MSwtODAy
-NTg1MjcxXX0=
+eyJoaXN0b3J5IjpbLTE0NTA5NDI3NzAsLTE1Mzc2MjcyOSw4ND
+g5NTQwNDgsMTE3MzQ1MDc2MCwxNTc1ODAzMjcyLDg2MjUyNTEx
+OCwtMjc0OTc4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLT
+YwODgzNTM0MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQx
+NDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLT
+IxMzIxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgw
+MjU4NTI3MV19
 -->
