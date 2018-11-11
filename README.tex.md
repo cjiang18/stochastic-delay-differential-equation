@@ -58,13 +58,13 @@ Although the delay function $X:[-\tau,0]\rightarrow\mathbb{R}$ is infinite dimen
 
 For the purpose of more robust computation, we use $NHistory=\tau/dt$ points, which are evenly spaced in the time domain, to represent the function, where $dt$ is set to guarantee that $NHistory$ is an integer. Now the infinite dimensional functions is approximated by a $NHistory$-dimensional object.  Thus, this $NHistory$-dimensional object can be represented by a $NHistory$-dimensional vector, indicating the values the object takes at each time point. 
 
-Since we are dealing with $NHistory$ -dimension, we choose the canonical basis $\{e_1,e_2,\dots, e_{Nhistory}\}$. stach
+Since we are dealing with $NHistory$ -dimension, we choose the canonical basis $\{e_1,e_2,\dots, e_{Nhistory}\}$. Aligning them together gives us the identity matrix. 
 
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTA1MjI0NSwtMjU5MjA4NDMyLC0yMT
+eyJoaXN0b3J5IjpbLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMT
 MyMTYwMzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1
 ODUyNzEsNDczMzcwMDgxXX0=
 -->
