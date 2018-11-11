@@ -104,8 +104,12 @@ $Y_\tau\equiv X_\tau \text{ iff }Y_\tau(0)=X_\tau(0)$
 
 Thus $\mu(X\tau)=X_\tau(0)$ is the required mapping which maps $C[I,\mathbb{R}]$ onto $\mathbb{R}$
 #### Step2:
-We have to restrict $\mathbb{R}$ to a finite interval $[a,b]$. This is totally for the purpose of numerical simulation.
-We 
+We have to restrict $\mathbb{R}$ to a finite interval $[a,b]$. This is totally for the purpose of numerical simulation. We choose:
+
+b = the largest  value a path has ever visited
+
+a = the smallest value a path has ever visited
+
 
 ## 5.2 Birkhoff's Theorem
 
@@ -121,7 +125,7 @@ We
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1NDU3MTAwLDg2MjUyNTExOCwtMjc0OT
+eyJoaXN0b3J5IjpbMzYzMzMwNDA3LDg2MjUyNTExOCwtMjc0OT
 c4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0
 MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0Nj
 IwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAz
