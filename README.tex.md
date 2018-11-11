@@ -144,15 +144,16 @@ Predator-Pray:
 
 $dx=x(r_1-a_{11}x_\tau-a_{12}y)dt+\sigma xdW$
 
-$dy=y(-r_2+a_{21}x-a_{22}y_\tau)dt+$
+$dy=y(-r_2+a_{21}x-a_{22}y_\tau)dt+\sigma ydW$
 
- xAll[:, 1, i - 1 + NHistory] * (
 
--r_2 + a_21 * xAll[:, 0, i - 1 + NHistory] - a_22 * xAll[:, 1, i])*dt + sigma * \
+Wreight's conjecture:
 
-xAll[:, 1, i - 1 + NHistory] * np.sum(
-
-dW[R * i:R * (i + 1)])
+ xAll[:, i + NHistory] = xAll[:, i - 1 + NHistory] - alpha * xAll[:, i] * (
+                1 + xAll[:,
+                    i - 1 + NHistory]) * dt + sigma * \
+                                xAll[:, i - 1 + NHistory] * np.sum(
+            dW[R * i:R * (i + 1)])
 
 
 
@@ -165,7 +166,7 @@ dW[R * i:R * (i + 1)])
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjAyNzc3ODksLTIyMDMyMTU1MywxMz
+eyJoaXN0b3J5IjpbLTIwNTgyNTgwMjMsLTIyMDMyMTU1MywxMz
 k5MzMzMDA4LC04NDA1NTY5NTksMTY0NjQ0MDE0MywxNDEzODQ2
 MTAsLTE1Mzc2MjcyOSw4NDg5NTQwNDgsMTE3MzQ1MDc2MCwxNT
 c1ODAzMjcyLDg2MjUyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5
