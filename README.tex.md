@@ -60,14 +60,16 @@ For the purpose of more robust computation, we use $NHistory=\tau/dt$ points, wh
 
 Since we are dealing with $NHistory$ -dimension, we choose the canonical basis $\{e_1,e_2,\dots, e_{Nhistory}\}$.  Aligning them together gives us the identity matrix. To estimate the Lyapunov spectrum,  we are going to see how this canonical basis develops when time span is very large, under the linearisation of the of stochastic delay differential equation. Since this system is autonomous, the dynamics of the tangent equation can be written in the form 
 
-$X(t)=e^{tA}X_0,\q A\in\mathbb{R}^{NHistory\times NHistory}$
+$X(t)=e^{tA}X_0,\quad A\in\mathbb{R}^{NHistory\times NHistory}$
+
+
 
 
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTIyNzA0NiwtNjIxNzAyMDM1LC0yNT
-kyMDg0MzIsLTIxMzIxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4
-MTc3NzEsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQ4NzMxMDIsLTYyMTcwMjAzNSwtMj
+U5MjA4NDMyLC0yMTMyMTYwMzQ1LC0xNDA1MDgzNzExLC0xMzY3
+ODE3NzcxLC04MDI1ODUyNzEsNDczMzcwMDgxXX0=
 -->
