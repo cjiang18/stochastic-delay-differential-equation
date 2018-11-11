@@ -104,7 +104,8 @@ $Y_\tau\equiv X_\tau \text{ iff }Y_\tau(0)=X_\tau(0)$
 
 Thus $\mu(X\tau)=X_\tau(0)$ is the required mapping which maps $C[I,\mathbb{R}]$ onto $\mathbb{R}$
 #### Step2:
-
+We have to restrict $\mathbb{R}$ to a finite interval $[a,b]$. This is totally for the purpose of numerical simulation.
+We 
 
 ## 5.2 Birkhoff's Theorem
 
@@ -120,10 +121,10 @@ Thus $\mu(X\tau)=X_\tau(0)$ is the required mapping which maps $C[I,\mathbb{R}]$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzY4OTI1MSw4NjI1MjUxMTgsLTI3ND
-k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
-NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
-YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
-MzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1ODUyNz
-EsNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbNTM1NDU3MTAwLDg2MjUyNTExOCwtMjc0OT
+c4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0
+MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0Nj
+IwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAz
+NDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MS
+w0NzMzNzAwODFdfQ==
 -->
