@@ -33,15 +33,13 @@ The Euler-Maruyama method is basically a stochastic version of the Euler's metho
 
 <img src="/tex/4c6fda2b84bf19d1ef8c7d29f1c50d75.svg?invert_in_darkmode&sanitize=true" align=middle width=488.5447545pt height=24.65753399999998pt/>
 
-<img src="/tex/f11145648cff3ba9c4465b8461448c77200b0a90bb002ce5f59368cd4a8fb0b73639592c8dfbbd6bef7fe53edf1872af439d5b12dc6c860995693aa45e4255d1.svg?invert_in_darkmode&sanitize=true" align=middle width=127.7340206378.04251044217.02084683.46465164999999958pt height=24.65753392.831056599999986pt/>
-
-W follows a normal distribution with variance <img src="/tex/5a8af6f173febd968ef4c52695efcf85.svg?invert_in_darkmode&sanitize=true" align=middle width=14.492060549999989pt height=22.831056599999986pt/>.
+<img src="/tex/f11145648cff3ba9c4465b8461448c77.svg?invert_in_darkmode&sanitize=true" align=middle width=127.73402069999999pt height=24.65753399999998pt/> follows a normal distribution with variance <img src="/tex/5a8af6f173febd968ef4c52695efcf85.svg?invert_in_darkmode&sanitize=true" align=middle width=14.492060549999989pt height=22.831056599999986pt/>. 
 ## Heun's Method
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTUwMTQ2MiwtODAyNTg1MjcxLDQ3Mz
-M3MDA4MV19
+eyJoaXN0b3J5IjpbLTIxMDg1MTA1MzUsLTgwMjU4NTI3MSw0Nz
+MzNzAwODFdfQ==
 -->
