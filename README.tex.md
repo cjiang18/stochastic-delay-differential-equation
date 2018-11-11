@@ -104,12 +104,15 @@ $\Phi:C[I,\mathbb{R}]\rightarrow C[I,\mathbb{R}]\quad \text{where } I=[-\tau,0]$
 What should we do?
 
 #### Step1:
+
 We have to map $C[I,\mathbb{R}]$ onto $\mathbb{R}$, so we can define a Markov process that we can work with. A natural choice is an equivalence relation on $C[I,\mathbb{R}]$:
 
 $Y_\tau\equiv X_\tau \text{ iff }Y_\tau(0)=X_\tau(0)$
 
 Thus $\mu(X\tau)=X_\tau(0)$ is the required mapping which maps $C[I,\mathbb{R}]$ onto $\mathbb{R}$
+
 #### Step2:
+
 We have to restrict $\mathbb{R}$ to a finite interval $[a,b]$. This is totally for the purpose of numerical simulation. We choose:
 
 b = the largest  value a path has ever visited
@@ -135,11 +138,10 @@ Now, we have reduced our problem to what we have discussed at the very beginning
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDcxMDgwNTAsMTE3MzQ1MDc2MCwxNT
-c1ODAzMjcyLDg2MjUyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5
-NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMT
-M0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAy
-MDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAzNDUsLTE0MDUwODM3MT
-EsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
-
+eyJoaXN0b3J5IjpbODQ4OTU0MDQ4LDExNzM0NTA3NjAsMTU3NT
+gwMzI3Miw4NjI1MjUxMTgsLTI3NDk3ODA2NiwxOTExNjMwOTU4
+LC0xMDEzODM3OTUwLC02MDg4MzUzNDIsLTg2Nzk1MTY1LDEzND
+I2NzE4NjQsMjY1ODc0MTQwLDE0NDYyMDM0NTEsLTYyMTcwMjAz
+NSwtMjU5MjA4NDMyLC0yMTMyMTYwMzQ1LC0xNDA1MDgzNzExLC
+0xMzY3ODE3NzcxLC04MDI1ODUyNzEsNDczMzcwMDgxXX0=
 -->
