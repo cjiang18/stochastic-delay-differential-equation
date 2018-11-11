@@ -95,7 +95,7 @@ $\Phi:C[I,\mathbb{R}]\rightarrow C[I,\mathbb{R}]\quad \text{where } I=[-\tau,0]$
 
 We have to map $C[I,\mathbb{R}]$ onto $\mathbb{R}$, so we can define a Markov process that we can work with. We define an equivalence relation on $C[I,\mathbb{R}]$:
 
-$Y_\tau\equiv X_\tau \text{iff$
+$Y_\tau\equiv X_\tau \text{ iff }Y_\tau(0)=X_\tau(0)$
 
 ## 5.2 Birkhoff's Theorem
 
@@ -111,7 +111,7 @@ $Y_\tau\equiv X_\tau \text{iff$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzQyNDM5Niw4NjI1MjUxMTgsLTI3ND
+eyJoaXN0b3J5IjpbMTExMzUwMjk0Nyw4NjI1MjUxMTgsLTI3ND
 k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
 NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
 YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
