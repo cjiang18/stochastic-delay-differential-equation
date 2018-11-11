@@ -131,6 +131,7 @@ The Birkhoff's Theorem states that given $(X,\mathscr{F},\mu)$ is a probability 
 $lim(n\rightarrow\infty)\frac{1}{n}\Sigma_{i=0}^{n-1}I_A(f^i(x))=\mu(A)$
 
 This means that if $X=\{x_1,x_2,\dots,x_n\}$ is finite state, then
+
 $\mu(X=x_i)=\frac{\text{number of times the path visited }x_i}{\text{number of all discrete time points}}$
 
 
@@ -145,11 +146,11 @@ $\mu(X=x_i)=\frac{\text{number of times the path visited }x_i}{\text{number of a
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjQ0MDE0MywxNDEzODQ2MTAsLTE1Mz
-c2MjcyOSw4NDg5NTQwNDgsMTE3MzQ1MDc2MCwxNTc1ODAzMjcy
-LDg2MjUyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5NTgsLTEwMT
-M4Mzc5NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMTM0MjY3MTg2
-NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1LC0yNT
-kyMDg0MzIsLTIxMzIxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4
-MTc3NzFdfQ==
+eyJoaXN0b3J5IjpbLTg0MDU1Njk1OSwxNjQ2NDQwMTQzLDE0MT
+M4NDYxMCwtMTUzNzYyNzI5LDg0ODk1NDA0OCwxMTczNDUwNzYw
+LDE1NzU4MDMyNzIsODYyNTI1MTE4LC0yNzQ5NzgwNjYsMTkxMT
+YzMDk1OCwtMTAxMzgzNzk1MCwtNjA4ODM1MzQyLC04Njc5NTE2
+NSwxMzQyNjcxODY0LDI2NTg3NDE0MCwxNDQ2MjAzNDUxLC02Mj
+E3MDIwMzUsLTI1OTIwODQzMiwtMjEzMjE2MDM0NSwtMTQwNTA4
+MzcxMV19
 -->
