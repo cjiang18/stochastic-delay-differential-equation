@@ -87,7 +87,7 @@ The invariant measure could be understood as a (probability) distribution of par
 
 The Ulam's method uses Markov Chain.
 
- Suppose  we have a discrete finite state process, then the invariant measure could be calculated by computing the eigenvalues and eigenvectors of the corresponding Markov matrix. The eigenvector corresponding to eigenvalue 1, is the required invariant measure.
+ Suppose  we have a discrete finite state process, then the invariant measure could be calculated by computing the eigenvalues and eigenvectors of the corresponding Markov matrix. The normalised eigenvector corresponding to eigenvalue 1, is the required invariant measure.
 
 If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ into N equally spaced subintervals. Then, considering each subinterval as a single state, we have a N-state Markov process.
 
@@ -117,7 +117,7 @@ b = the largest  value a path has ever visited
 a = the smallest value a path has ever visited
 
 
-Now, we have reduced our problem to what we have discussed at the very beginning of this section. So then we estimate the the Markov matrix
+Now, we have reduced our problem to what we have discussed at the very beginning of this section. So then we estimate the the Markov matrix and compute its normalised eigenvector with eigenvalue 1.
 
 
 
@@ -135,7 +135,7 @@ Now, we have reduced our problem to what we have discussed at the very beginning
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODQ4MzE2Myw4NjI1MjUxMTgsLTI3ND
+eyJoaXN0b3J5IjpbMTU3NTgwMzI3Miw4NjI1MjUxMTgsLTI3ND
 k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
 NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
 YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
