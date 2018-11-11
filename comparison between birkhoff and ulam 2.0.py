@@ -53,7 +53,7 @@ def markov(pullback, row0, boxwidth, Nbox, NHistory, tfinal, box, dt, xAll, retu
 
 
 def counting(pullback, row1, boxwidth, Nbox, NHistory, tfinal, box, dt, xAll, N, L, return_dict):
-    # calculating markov matrix
+    # applying Birkhoff's theorem
 
     pvector = np.zeros(Nbox)
 
