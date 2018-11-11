@@ -41,17 +41,17 @@ Heun's Method is supposed to be more accurate than Euler's Method for integratin
 
 For the sake of simplicity, suppose our equation is 
 
-$dX=\phi(X,t) dt+\theta(t)dW$
+$dX=\phi(X,t) dt+\theta(X,t)dW$
 
 Then, under Heun's method, we first use the same technique as Euler's method to find the value of X(t+dt) by
 
-$X(t+dt)=X(t)+\phi(t) dt+\theta(t)dW$
+$X(t+dt)=X(t)+\phi(X,t) dt+\theta(X,t)dW$
 
-However, this $X(t+dt)$ is only an intermediate value. The purpose is to use this to evaluate $\phi(t+dt)$
+However, this $X(t+dt)$ is only an intermediate value. The purpose is to use this to evaluate $\phi(t+dt)$ and then use 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDM3MjIzNywtMTM2NzgxNzc3MSwtOD
-AyNTg1MjcxLDQ3MzM3MDA4MV19
+eyJoaXN0b3J5IjpbOTY2NTI0MzI2LC0xMzY3ODE3NzcxLC04MD
+I1ODUyNzEsNDczMzcwMDgxXX0=
 -->
