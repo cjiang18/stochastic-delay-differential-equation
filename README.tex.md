@@ -70,7 +70,7 @@ where $\lambda_X(t)$ is the vector of all real parts of eigenvalues of $V(t)$.
 
 Working from first principles, the tangent equation is found to be
 
-$dV=[V(\alpha-\beta X_\tau)-\beta V_\tau X]dt+\sigma VdW$
+$dV=[V(\alpha-\beta X_\tau)-\beta V_\tau X] dt+\sigma V dW$
 
 Now, implementing the integration scheme we can find $V(t)$, and estimate the Lyapunov Spectrum by choosing a large positive t.
 
@@ -87,9 +87,9 @@ Now, implementing the integration scheme we can find $V(t)$, and estimate the Ly
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTYzMDk1OCwtMTAxMzgzNzk1MCwtNj
-A4ODM1MzQyLC04Njc5NTE2NSwxMzQyNjcxODY0LDI2NTg3NDE0
-MCwxNDQ2MjAzNDUxLC02MjE3MDIwMzUsLTI1OTIwODQzMiwtMj
-EzMjE2MDM0NSwtMTQwNTA4MzcxMSwtMTM2NzgxNzc3MSwtODAy
-NTg1MjcxLDQ3MzM3MDA4MV19
+eyJoaXN0b3J5IjpbLTI3NDk3ODA2NiwxOTExNjMwOTU4LC0xMD
+EzODM3OTUwLC02MDg4MzUzNDIsLTg2Nzk1MTY1LDEzNDI2NzE4
+NjQsMjY1ODc0MTQwLDE0NDYyMDM0NTEsLTYyMTcwMjAzNSwtMj
+U5MjA4NDMyLC0yMTMyMTYwMzQ1LC0xNDA1MDgzNzExLC0xMzY3
+ODE3NzcxLC04MDI1ODUyNzEsNDczMzcwMDgxXX0=
 -->
