@@ -37,11 +37,11 @@ $W(t+dt)-W(t)$ follows a normal distribution with variance $dt$. Thus, $W(t+dt)-
 
 $W(t+dt)-W(t)=\displaystyle\Sigma_{i=0}^{R-1}[W(t+(i+1)*tDelta)-W(t+i*tDelta)]$
 ## Heun's Method
-Heun's Method for integrating this 
+Heun's Method is supposed to be more accurate than Euler's Method for integrating 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc4MTc3NzEsLTgwMjU4NTI3MSw0Nz
-MzNzAwODFdfQ==
+eyJoaXN0b3J5IjpbOTMwMjM0NTI2LC0xMzY3ODE3NzcxLC04MD
+I1ODUyNzEsNDczMzcwMDgxXX0=
 -->
