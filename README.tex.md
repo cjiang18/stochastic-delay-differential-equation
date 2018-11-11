@@ -56,12 +56,13 @@ The Lyapunov specturm is very useful in determining types of attractors. Negativ
 
 Although the delay function $X:[-\tau,0]\rightarrow\mathbb{R}$ is infinite dimensional, we estimate lyapunov spectrum using finite points to approximate. 
 
-For the purpose of more robust computation, we use $NHistory=\tau/dt$ points, which are evenly spaced in the time domain, to represent the function, where $dt$ is set to guarantee that $NHistory$ is an integer. Now the infinite dimensional functions is approximated by a $NHistory$-dimensional object.  Thus, this $NHistory$-dimensional object can be represented by a $NHistory$-dimensional vector, indicating the value the object takes at each time point. 
+For the purpose of more robust computation, we use $NHistory=\tau/dt$ points, which are evenly spaced in the time domain, to represent the function, where $dt$ is set to guarantee that $NHistory$ is an integer. Now the infinite dimensional functions is approximated by a $NHistory$-dimensional object.  Thus, this $NHistory$-dimensional object can be represented by a $NHistory$-dimensional vector, indicating the values the object takes at each time point. 
 
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzIxNjAzNDUsLTE0MDUwODM3MTEsLT
-EzNjc4MTc3NzEsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
+eyJoaXN0b3J5IjpbNTI4MTQ1OTE4LC0yMTMyMTYwMzQ1LC0xND
+A1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1ODUyNzEsNDczMzcw
+MDgxXX0=
 -->
