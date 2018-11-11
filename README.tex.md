@@ -41,11 +41,13 @@ Heun's Method is supposed to be more accurate than Euler's Method for integratin
 
 For the sake of simplicity, suppose our equation is 
 
-$dW=X( \alpha +\beta X_\tau )dt+\sigma X dW
+$dW=\phi(t) dt+\theta(t)dW$
+
+Then, under Heun's method, we first use the same technique as 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE2NTg1MTE5LC0xMzY3ODE3NzcxLC04MD
-I1ODUyNzEsNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbMTk0MjM3OTgzNCwtMTM2NzgxNzc3MSwtOD
+AyNTg1MjcxLDQ3MzM3MDA4MV19
 -->
