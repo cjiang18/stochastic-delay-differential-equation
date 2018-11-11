@@ -70,7 +70,14 @@ where $\lambda_X(t)$ is the vector of all real parts of eigenvalues of $X(t)$.
 
 Working from first principles, the tangent equation is found to be
 
-$$
+vAll[:, i + NHistory] = vAll[:, i + NHistory - 1] + vAll[:, i + NHistory - 1] * (
+
+alpha - beta * xAll[i]) * dt - vAll[:, i] * beta * xAll[i + NHistory] * dt + sigma * vAll[:,
+
+i + NHistory - 1] * np.sum(
+
+dW[R * i:R * (i + 1)])
+$dV=$
 
 
 
@@ -79,8 +86,8 @@ $$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5ODgyMTQ5LDEzNDI2NzE4NjQsMjY1OD
-c0MTQwLDE0NDYyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMy
-LC0yMTMyMTYwMzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC
-04MDI1ODUyNzEsNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbMTg4NTY3NDE1OCwxMzQyNjcxODY0LDI2NT
+g3NDE0MCwxNDQ2MjAzNDUxLC02MjE3MDIwMzUsLTI1OTIwODQz
+MiwtMjEzMjE2MDM0NSwtMTQwNTA4MzcxMSwtMTM2NzgxNzc3MS
+wtODAyNTg1MjcxLDQ3MzM3MDA4MV19
 -->
