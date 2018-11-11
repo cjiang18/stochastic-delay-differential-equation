@@ -85,7 +85,9 @@ The invariant measure could be understood as a (probability) distribution of par
 
 ## 5.1 Ulam's Method
 
-The Ulam's method uses Markov Chain.  Suppose  we have a finite state process, then the invariant measure could be calculated by computing the eigenvalues and eigenvectors of the corresponding Markov matrix. The eigenvector corresponding to eigenvalue 1, is the required invariant measure.
+The Ulam's method uses Markov Chain.
+
+  Suppose  we have a finite state process, then the invariant measure could be calculated by computing the eigenvalues and eigenvectors of the corresponding Markov matrix. The eigenvector corresponding to eigenvalue 1, is the required invariant measure.
 
 If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ into N equally spaced subintervals. Then, considering each subinterval as a single state, we have a N-state Markov process.
 
@@ -97,7 +99,7 @@ We have to map $C[I,\mathbb{R}]$ onto $\mathbb{R}$, so we can define a Markov pr
 
 $Y_\tau\equiv X_\tau \text{ iff }Y_\tau(0)=X_\tau(0)$
 
-Thus $\mu(X\tau)=X_\tau(0)$ is the mapping which maps $C[I,\mathbb{R}]$ onto $\mathbb{R}$
+Thus $\mu(X\tau)=X_\tau(0)$ is the required mapping which maps $C[I,\mathbb{R}]$ onto $\mathbb{R}$
 
 ## 5.2 Birkhoff's Theorem
 
@@ -113,7 +115,7 @@ Thus $\mu(X\tau)=X_\tau(0)$ is the mapping which maps $C[I,\mathbb{R}]$ onto $\m
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjExMjE1OTg4LDg2MjUyNTExOCwtMjc0OT
+eyJoaXN0b3J5IjpbMzQzMzE3NzYzLDg2MjUyNTExOCwtMjc0OT
 c4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0
 MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0Nj
 IwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAz
