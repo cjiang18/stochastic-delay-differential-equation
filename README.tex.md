@@ -95,7 +95,7 @@ And the Markov matrix of this process is estimated by:
 
 $p_{ij}=\frac{1}{tfinal-tinitial}\Sigma^{tfinal}_{t=tinitial}[\frac{\text{\#X(t) in state i and X(t+1) in state j}}{\text{\#X(t) in state j}}]$
 
-Of course, the expectation is estimated by sample mean
+
 
 However the process we are dealing with is 
 
@@ -117,6 +117,8 @@ b = the largest  value a path has ever visited
 a = the smallest value a path has ever visited
 
 
+Now, we have reduced our problem to what we have discussed at the very beginning of this section. So then we estimate the the Markov matrix
+
 
 
 ## 5.2 Birkhoff's Theorem
@@ -133,7 +135,7 @@ a = the smallest value a path has ever visited
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzk0MTkxNiw4NjI1MjUxMTgsLTI3ND
+eyJoaXN0b3J5IjpbLTc1ODQ4MzE2Myw4NjI1MjUxMTgsLTI3ND
 k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
 NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
 YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
