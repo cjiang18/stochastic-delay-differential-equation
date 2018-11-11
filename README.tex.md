@@ -12,7 +12,7 @@ I am going to explain some of the algorithms I used in the scripts.
 
 # How Noise Realisation Is Implemented When Pullback Exists
 
-A pullback means we have  t taking negat. For example, if pullback is 200, then the system starts at t = -200.  We want to make sure that the noise realisation should be the same at each time point, so we can adjust the value of pullback and explore pullback attractors.  
+A pullback means we have  t taking negative values. For example, if pullback is 200, then the system starts at t = -200.  We want to make sure that the noise realisation should be the same at each time point, so we can adjust the value of pullback and explore pullback attractors.  
 
 Thus, in order to allow pullback to vary without altering the noise realisation, we should not generate noise forward from the very initial time point (e.g. t = -200). Instead, we should generate **two** streams of noise, starting from t = 0. 
 
@@ -22,7 +22,7 @@ Stream B runs backward from t = 0 to $-\infty$.
 
 **NOTICE** : we need two different seeds to generate those streams, otherwise there is a symmetry in noise.
 
-This makes sure that once the random seed is fixed, we can change adjust pullback and the final time as we wish without altering the noise.
+This makes sure that once the random seed is fixed, we can adjust pullback and the final time as we wish without altering the noise.
 
 # Stochastic Integration Schemes
 The philosophy of numeric integration is to discretise time, and use summation to replace integration.
@@ -161,11 +161,11 @@ $dX=-\alpha X_\tau(1+X)dt+\sigma XdW$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzUxMjEzNjIsLTIyMDMyMTU1MywxMz
-k5MzMzMDA4LC04NDA1NTY5NTksMTY0NjQ0MDE0MywxNDEzODQ2
-MTAsLTE1Mzc2MjcyOSw4NDg5NTQwNDgsMTE3MzQ1MDc2MCwxNT
-c1ODAzMjcyLDg2MjUyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5
-NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMT
-M0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAy
-MDM1XX0=
+eyJoaXN0b3J5IjpbMTAyOTY1NDcxMCwtMjIwMzIxNTUzLDEzOT
+kzMzMwMDgsLTg0MDU1Njk1OSwxNjQ2NDQwMTQzLDE0MTM4NDYx
+MCwtMTUzNzYyNzI5LDg0ODk1NDA0OCwxMTczNDUwNzYwLDE1Nz
+U4MDMyNzIsODYyNTI1MTE4LC0yNzQ5NzgwNjYsMTkxMTYzMDk1
+OCwtMTAxMzgzNzk1MCwtNjA4ODM1MzQyLC04Njc5NTE2NSwxMz
+QyNjcxODY0LDI2NTg3NDE0MCwxNDQ2MjAzNDUxLC02MjE3MDIw
+MzVdfQ==
 -->
