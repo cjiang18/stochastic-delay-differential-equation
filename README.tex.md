@@ -130,9 +130,11 @@ The Birkhoff's Theorem states that given $(X,\mathscr{F},\mu)$ is a probability 
 
 $lim(n\rightarrow\infty)\frac{1}{n}\Sigma_{i=0}^{n-1}I_A(f^i(x))=\mu(A)$
 
-This means that if $X=\{x_1,x_2,\dots,x_n\}$ is finite state, then
+This means that if $X=\{x_1,x_2,\dots,x_n\}$ is finite, then
 
 $\mu(X=x_i)=\frac{\text{number of times the path visited }x_i}{\text{number of all discrete time points}}$
+
+We use the same mapping to reduce our infinite dimensional object to one dimension with finite states as what we have done 
 
 
 
@@ -146,11 +148,11 @@ $\mu(X=x_i)=\frac{\text{number of times the path visited }x_i}{\text{number of a
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDU1Njk1OSwxNjQ2NDQwMTQzLDE0MT
-M4NDYxMCwtMTUzNzYyNzI5LDg0ODk1NDA0OCwxMTczNDUwNzYw
-LDE1NzU4MDMyNzIsODYyNTI1MTE4LC0yNzQ5NzgwNjYsMTkxMT
-YzMDk1OCwtMTAxMzgzNzk1MCwtNjA4ODM1MzQyLC04Njc5NTE2
-NSwxMzQyNjcxODY0LDI2NTg3NDE0MCwxNDQ2MjAzNDUxLC02Mj
-E3MDIwMzUsLTI1OTIwODQzMiwtMjEzMjE2MDM0NSwtMTQwNTA4
-MzcxMV19
+eyJoaXN0b3J5IjpbLTI4MjkwNTcxNywtODQwNTU2OTU5LDE2ND
+Y0NDAxNDMsMTQxMzg0NjEwLC0xNTM3NjI3MjksODQ4OTU0MDQ4
+LDExNzM0NTA3NjAsMTU3NTgwMzI3Miw4NjI1MjUxMTgsLTI3ND
+k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
+NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
+YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
+MzQ1XX0=
 -->
