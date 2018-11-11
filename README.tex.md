@@ -93,7 +93,7 @@ If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ i
 
 And the Markov matrix of this process is estimated by:
 
-$p_{ij}=\frac{1}{tfinal-tinitial}\Sigma^{tfinal}_{t=tinitial}[\frac{\text{\#X(t) in state i and X(t+1) in state j}}{\text{\#X(t) in state j}}]$
+$p_{ij}=\frac{1}{tfinal-tinitial}\Sigma^{tfinal}_{t=tinitial}[\frac{\text{number of times X(t) in state i and X(t+1) in state j}}{\text{\#X(t) in state j}}]$
 
 
 
@@ -135,10 +135,10 @@ Now, we have reduced our problem to what we have discussed at the very beginning
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzQ1MDc2MCwxNTc1ODAzMjcyLDg2Mj
-UyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5
-NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNj
-U4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0
-MzIsLTIxMzIxNjAzNDUsLTE0MDUwODM3MTEsLTEzNjc4MTc3Nz
-EsLTgwMjU4NTI3MSw0NzMzNzAwODFdfQ==
+eyJoaXN0b3J5IjpbLTY4OTYyOTk2MywxMTczNDUwNzYwLDE1Nz
+U4MDMyNzIsODYyNTI1MTE4LC0yNzQ5NzgwNjYsMTkxMTYzMDk1
+OCwtMTAxMzgzNzk1MCwtNjA4ODM1MzQyLC04Njc5NTE2NSwxMz
+QyNjcxODY0LDI2NTg3NDE0MCwxNDQ2MjAzNDUxLC02MjE3MDIw
+MzUsLTI1OTIwODQzMiwtMjEzMjE2MDM0NSwtMTQwNTA4MzcxMS
+wtMTM2NzgxNzc3MSwtODAyNTg1MjcxLDQ3MzM3MDA4MV19
 -->
