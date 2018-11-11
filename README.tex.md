@@ -97,6 +97,8 @@ We have to map $C[I,\mathbb{R}]$ onto $\mathbb{R}$, so we can define a Markov pr
 
 $Y_\tau\equiv X_\tau \text{ iff }Y_\tau(0)=X_\tau(0)$
 
+Thus 
+
 ## 5.2 Birkhoff's Theorem
 
 
@@ -111,7 +113,7 @@ $Y_\tau\equiv X_\tau \text{ iff }Y_\tau(0)=X_\tau(0)$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzUwMjk0Nyw4NjI1MjUxMTgsLTI3ND
+eyJoaXN0b3J5IjpbLTkyMTUyNjc1Nyw4NjI1MjUxMTgsLTI3ND
 k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
 NDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQwLDE0ND
 YyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMTMyMTYw
