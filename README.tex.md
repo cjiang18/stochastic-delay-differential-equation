@@ -2,7 +2,7 @@
 # Introduction  
 This is a summer project I did in 2018 summer in Imperial College London. The main task is to simulate the following logistic stochastic delay differential equation. 
 
-$dX=X( \alpha +\beta X_\tau )dt+\sigma X dW$
+$dX=X( \alpha -\beta X_\tau )dt+\sigma X dW$
 
 where $\alpha$ and $\beta$ are parameters of the deterministic delay logistic equation, and $X_\tau(t)=X(t-\tau)$.
 
@@ -70,14 +70,14 @@ where $\lambda_X(t)$ is the vector of all real parts of eigenvalues of $X(t)$.
 
 Working from first principles, the tangent equation is found to be
 
-vAll[:, i + NHistory] = vAll[:, i + NHistory - 1] + vAll[:, i + NHistory - 1] * (
+vAll[:, i + NHistory] =  vAll[:, i + NHistory - 1] * (
 
 alpha - beta * xAll[i]) * dt - vAll[:, i] * beta * xAll[i + NHistory] * dt + sigma * vAll[:,
 
 i + NHistory - 1] * np.sum(
 
 dW[R * i:R * (i + 1)])
-$dV=$
+$dV=V(\alpha-\beta X_\tau)-V$
 
 
 
@@ -86,7 +86,7 @@ $dV=$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTY3NDE1OCwxMzQyNjcxODY0LDI2NT
+eyJoaXN0b3J5IjpbLTk3ODE1ODA0OCwxMzQyNjcxODY0LDI2NT
 g3NDE0MCwxNDQ2MjAzNDUxLC02MjE3MDIwMzUsLTI1OTIwODQz
 MiwtMjEzMjE2MDM0NSwtMTQwNTA4MzcxMSwtMTM2NzgxNzc3MS
 wtODAyNTg1MjcxLDQ3MzM3MDA4MV19
