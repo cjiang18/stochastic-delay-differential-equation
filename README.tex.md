@@ -1,5 +1,5 @@
 
-# Introduction  
+# 1. Introduction  
 This is a summer project I did in 2018 summer in Imperial College London. The main task is to simulate the following logistic stochastic delay differential equation. 
 
 $dX=X( \alpha -\beta X_\tau )dt+\sigma X dW$
@@ -10,7 +10,7 @@ We were also ask to simulate the system when a pullback in time is set, in order
 
 I am going to explain some of the algorithms I used in the scripts.
 
-# How Noise Realisation Is Implemented When Pullback Exists
+# 2. How Noise Realisation Is Implemented When Pullback Exists
 
 A pullback means we have negative time. For example, if pullback is 200, then the system starts at t = -200.  We want to make sure that the noise realisation should be the same at each time point, so we can adjust the value of pullback and explore pullback attractors.  
 
@@ -24,11 +24,11 @@ Stream B runs backward from t = 0 to $-\infty$.
 
 This makes sure that once the random seed is fixed, we can change adjust pullback and the final time as we wish without altering the noise.
 
-# Stochastic Integration Schemes
+# 3. Stochastic Integration Schemes
 The philosophy of numeric integration is to discretise time, and use summation to replace integration.
  
 Two integration schemes are used for integrations. In most of the scripts, Euler-Maruyama method are used to save computing time. Heun's Method  is only used when stated in the title of the scripts. More sophisticated integration schemes like Runge-Kutta, requires fractional time step, which I found infeasible for stochastic delay differential equation. 
-## Euler-Maruyama
+## 3.1 Euler-Maruyama
 The Euler-Maruyama method is basically a stochastic version of the Euler's method for deterministic equation. Under Euler-Maruyama method, our equation becomes
 
 $X(t+dt)-X(t)=X(t)\left[\alpha +\beta X_\tau(t)\right]dt+\sigma X(t)[W(t+dt)-W(t)]$
@@ -36,7 +36,7 @@ $X(t+dt)-X(t)=X(t)\left[\alpha +\beta X_\tau(t)\right]dt+\sigma X(t)[W(t+dt)-W(t
 $W(t+dt)-W(t)$ follows a normal distribution with variance $dt$. Thus, $W(t+dt)-W(t)$ is realised by drawing a sample from the normal distribution with variance $dt$. In fact, in my implementation, a smaller times step called **tDelta** is set, and $dt=R*tDelta$, where $R$ is an integer. Now
 
 $W(t+dt)-W(t)=\displaystyle\Sigma_{i=0}^{R-1}[W(t+(i+1)*tDelta)-W(t+i*tDelta)]$
-## Heun's Method
+## 3.2  Heun's Method
 Heun's Method is supposed to be more accurate than Euler's Method for integrating the deterministic equation, but it is more time- consuming. The scheme for integrating the random variable is the same as Euler-Maruyama, as Heun's Method only improves evaluation of the deterministic gradient. 
 
 For the sake of simplicity, suppose our equation is 
@@ -51,7 +51,7 @@ However, this $X(t+dt)$ is only an intermediate value. The purpose is to use thi
 
 $X(t+dt)=X(t)+\frac{1}{2}[\phi(X(t))+\phi(X(t+dt))] dt+\theta(X(t))dW$
 
-# Lyapunov spectrum
+# 4. Lyapunov spectrum
 The Lyapunov specturm is very useful in determining types of attractors. Negative Lyapunov spectra mean **stable** attractors, and positive Lyapunov spectra mean **unstable** attractors, and Lyapunov spectra with both positive and negative values mean **strange** attractors. 
 
 Although the delay function $X:[-\tau,0]\rightarrow\mathbb{R}$ is infinite dimensional, we estimate lyapunov spectrum using finite points to approximate. 
@@ -72,9 +72,10 @@ Working from first principles, the tangent equation is found to be
 
 $dV=[V(\alpha-\beta X_\tau)-\beta V_\tau X] dt+\sigma V dW$
 
-Now, implementing the integration scheme we can find $V(t)$, and estimate the Lyapunov Spectrum by choosing a large .
+Now, implementing the integration scheme we can find $V(t)$, and estimate the Lyapunov Spectrum by choosing a large positive t .
 
-
+# 5.
+# 6.
 
 
 
@@ -87,9 +88,10 @@ Now, implementing the integration scheme we can find $V(t)$, and estimate the Ly
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDk3ODA2NiwxOTExNjMwOTU4LC0xMD
-EzODM3OTUwLC02MDg4MzUzNDIsLTg2Nzk1MTY1LDEzNDI2NzE4
-NjQsMjY1ODc0MTQwLDE0NDYyMDM0NTEsLTYyMTcwMjAzNSwtMj
-U5MjA4NDMyLC0yMTMyMTYwMzQ1LC0xNDA1MDgzNzExLC0xMzY3
-ODE3NzcxLC04MDI1ODUyNzEsNDczMzcwMDgxXX0=
+eyJoaXN0b3J5IjpbMTgzNDcyOTQ5NCwtMjc0OTc4MDY2LDE5MT
+E2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0MiwtODY3OTUx
+NjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1MSwtNj
+IxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAzNDUsLTE0MDUw
+ODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MSw0NzMzNzAwOD
+FdfQ==
 -->
