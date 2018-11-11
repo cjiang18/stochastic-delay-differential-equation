@@ -125,7 +125,9 @@ Now, we have reduced our problem to what we have discussed at the very beginning
 
 
 ## 5.2 Birkhoff's Theorem
-The Birkhoff's Theorem states that given $(X,\mathfrak{F})$
+The Birkhoff's Theorem states that given $(X,\mathscr{F},\mu)$ is a probability space and $f:X\rightarrow X$ a measurable function such that $\mu$ is invariant with respect to f. then we have:
+
+
 
 
 
@@ -138,11 +140,11 @@ The Birkhoff's Theorem states that given $(X,\mathfrak{F})$
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc2MjcyOSw4NDg5NTQwNDgsMTE3Mz
-Q1MDc2MCwxNTc1ODAzMjcyLDg2MjUyNTExOCwtMjc0OTc4MDY2
-LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0MiwtOD
-Y3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1
-MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAzNDUsLT
-E0MDUwODM3MTEsLTEzNjc4MTc3NzEsLTgwMjU4NTI3MSw0NzMz
-NzAwODFdfQ==
+eyJoaXN0b3J5IjpbNDk3OTY3MDMzLC0xNTM3NjI3MjksODQ4OT
+U0MDQ4LDExNzM0NTA3NjAsMTU3NTgwMzI3Miw4NjI1MjUxMTgs
+LTI3NDk3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MD
+g4MzUzNDIsLTg2Nzk1MTY1LDEzNDI2NzE4NjQsMjY1ODc0MTQw
+LDE0NDYyMDM0NTEsLTYyMTcwMjAzNSwtMjU5MjA4NDMyLC0yMT
+MyMTYwMzQ1LC0xNDA1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1
+ODUyNzFdfQ==
 -->
