@@ -6,7 +6,7 @@ $dX=X( \alpha -\beta X_\tau )dt+\sigma X dW$
 
 where $\alpha$ and $\beta$ are parameters of the deterministic delay logistic equation, and $X_\tau(t)=X(t-\tau)$.
 
-We were also ask to simulate the system when a pullback in time is set, in order to find pullback attractors.
+We were also askd to simulate the system when a pullback in time is set, in order to find pullback attractors.
 
 I am going to explain some of the algorithms I used in the scripts.
 
@@ -138,7 +138,8 @@ We use the same mapping to reduce our infinite dimensional object to one dimensi
 
 # Another Two Equations
 
-Apart from the Logistic equation, the same scripts were also rwr
+Apart from the Logistic equation, the same scripts were also written for other two equations, which are the predator-pray equation, and Wreight's conjecture.
+
 
 
 
@@ -151,11 +152,11 @@ Apart from the Logistic equation, the same scripts were also rwr
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTAyMDk3NCwxMzk5MzMzMDA4LC04ND
-A1NTY5NTksMTY0NjQ0MDE0MywxNDEzODQ2MTAsLTE1Mzc2Mjcy
-OSw4NDg5NTQwNDgsMTE3MzQ1MDc2MCwxNTc1ODAzMjcyLDg2Mj
-UyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5
-NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNj
-U4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0
-MzJdfQ==
+eyJoaXN0b3J5IjpbLTg0MDA3MzQ1LDEzOTkzMzMwMDgsLTg0MD
+U1Njk1OSwxNjQ2NDQwMTQzLDE0MTM4NDYxMCwtMTUzNzYyNzI5
+LDg0ODk1NDA0OCwxMTczNDUwNzYwLDE1NzU4MDMyNzIsODYyNT
+I1MTE4LC0yNzQ5NzgwNjYsMTkxMTYzMDk1OCwtMTAxMzgzNzk1
+MCwtNjA4ODM1MzQyLC04Njc5NTE2NSwxMzQyNjcxODY0LDI2NT
+g3NDE0MCwxNDQ2MjAzNDUxLC02MjE3MDIwMzUsLTI1OTIwODQz
+Ml19
 -->
