@@ -149,12 +149,7 @@ $dy=y(-r_2+a_{21}x-a_{22}y_\tau)dt+\sigma ydW$
 
 Wreight's conjecture:
 
- xAll[:, i + NHistory] = xAll[:, i - 1 + NHistory] - alpha * xAll[:, i] * (
-                1 + xAll[:,
-                    i - 1 + NHistory]) * dt + sigma * \
-                                xAll[:, i - 1 + NHistory] * np.sum(
-            dW[R * i:R * (i + 1)])
-
+$dX=-\alpha X_\tau(1+X)dt+\sigma XdW$
 
 
 
@@ -166,11 +161,11 @@ Wreight's conjecture:
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTgyNTgwMjMsLTIyMDMyMTU1MywxMz
-k5MzMzMDA4LC04NDA1NTY5NTksMTY0NjQ0MDE0MywxNDEzODQ2
-MTAsLTE1Mzc2MjcyOSw4NDg5NTQwNDgsMTE3MzQ1MDc2MCwxNT
-c1ODAzMjcyLDg2MjUyNTExOCwtMjc0OTc4MDY2LDE5MTE2MzA5
-NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0MiwtODY3OTUxNjUsMT
-M0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0NjIwMzQ1MSwtNjIxNzAy
-MDM1XX0=
+eyJoaXN0b3J5IjpbMTUxMDI2NTU1NSwtMjIwMzIxNTUzLDEzOT
+kzMzMwMDgsLTg0MDU1Njk1OSwxNjQ2NDQwMTQzLDE0MTM4NDYx
+MCwtMTUzNzYyNzI5LDg0ODk1NDA0OCwxMTczNDUwNzYwLDE1Nz
+U4MDMyNzIsODYyNTI1MTE4LC0yNzQ5NzgwNjYsMTkxMTYzMDk1
+OCwtMTAxMzgzNzk1MCwtNjA4ODM1MzQyLC04Njc5NTE2NSwxMz
+QyNjcxODY0LDI2NTg3NDE0MCwxNDQ2MjAzNDUxLC02MjE3MDIw
+MzVdfQ==
 -->
