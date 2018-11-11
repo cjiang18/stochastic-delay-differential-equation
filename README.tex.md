@@ -60,9 +60,10 @@ For the purpose of more robust computation, we use $NHistory=\tau/dt$ points, wh
 
 
 
+
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4MTQ1OTE4LC0yMTMyMTYwMzQ1LC0xND
-A1MDgzNzExLC0xMzY3ODE3NzcxLC04MDI1ODUyNzEsNDczMzcw
-MDgxXX0=
+eyJoaXN0b3J5IjpbLTI1OTIwODQzMiwtMjEzMjE2MDM0NSwtMT
+QwNTA4MzcxMSwtMTM2NzgxNzc3MSwtODAyNTg1MjcxLDQ3MzM3
+MDA4MV19
 -->
