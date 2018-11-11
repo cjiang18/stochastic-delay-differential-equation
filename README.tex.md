@@ -91,6 +91,8 @@ The Ulam's method uses Markov Chain.
 
 If  we have $X:[a,b]\rightarrow[a,b]$, we could partition the interval $[a,b]$ into N equally spaced subintervals. Then, considering each subinterval as a single state, we have a N-state Markov process.
 
+To compute the Markov mati
+
 However the process we are dealing with is 
 
 $\Phi:C[I,\mathbb{R}]\rightarrow C[I,\mathbb{R}]\quad \text{where } I=[-\tau,0]$
@@ -111,6 +113,8 @@ b = the largest  value a path has ever visited
 a = the smallest value a path has ever visited
 
 
+
+
 ## 5.2 Birkhoff's Theorem
 
 
@@ -125,7 +129,7 @@ a = the smallest value a path has ever visited
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzMzMwNDA3LDg2MjUyNTExOCwtMjc0OT
+eyJoaXN0b3J5IjpbODg5MTYzNDk1LDg2MjUyNTExOCwtMjc0OT
 c4MDY2LDE5MTE2MzA5NTgsLTEwMTM4Mzc5NTAsLTYwODgzNTM0
 MiwtODY3OTUxNjUsMTM0MjY3MTg2NCwyNjU4NzQxNDAsMTQ0Nj
 IwMzQ1MSwtNjIxNzAyMDM1LC0yNTkyMDg0MzIsLTIxMzIxNjAz
