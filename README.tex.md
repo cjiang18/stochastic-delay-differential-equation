@@ -134,7 +134,7 @@ This means that if $X=\{x_1,x_2,\dots,x_n\}$ is finite, then
 
 $\mu(X=x_i)=\frac{\text{number of times the path visited }x_i}{\text{number of all discrete time points}}$
 
-We use the same mapping to reduce our infinite dimensional object to one dimension with finite states as what we have done 
+We use the same mapping to reduce our infinite dimensional object to one dimension with finite states as what we have done in Ulam's method.
 
 
 
@@ -148,7 +148,7 @@ We use the same mapping to reduce our infinite dimensional object to one dimensi
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjkwNTcxNywtODQwNTU2OTU5LDE2ND
+eyJoaXN0b3J5IjpbMTM5OTMzMzAwOCwtODQwNTU2OTU5LDE2ND
 Y0NDAxNDMsMTQxMzg0NjEwLC0xNTM3NjI3MjksODQ4OTU0MDQ4
 LDExNzM0NTA3NjAsMTU3NTgwMzI3Miw4NjI1MjUxMTgsLTI3ND
 k3ODA2NiwxOTExNjMwOTU4LC0xMDEzODM3OTUwLC02MDg4MzUz
