@@ -130,6 +130,8 @@ The Birkhoff's Theorem states that given $(X,\mathscr{F},\mu)$ is a probability 
 
 $lim(n\rightarrow\infty)\frac{1}{n}\Sigma_{i=0}^{n-1}I_A(f^i(x))=\mu(A)$
 
+This means that 
+
 
 
 
