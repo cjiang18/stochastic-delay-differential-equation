@@ -2,7 +2,7 @@
 # Introduction  
 This is a summer project I did in 2018 summer in Imperial College London. The main task is to simulate the following logistic stochastic delay differential equation. 
 
-$dW=X( \alpha +\beta X_\tau )dt+\sigma X dW$
+$dX=X( \alpha +\beta X_\tau )dt+\sigma X dW$
 
 where $\alpha$ and $\beta$ are parameters of the deterministic delay logistic equation, and $X_\tau(t)=X(t-\tau)$.
 
@@ -41,13 +41,15 @@ Heun's Method is supposed to be more accurate than Euler's Method for integratin
 
 For the sake of simplicity, suppose our equation is 
 
-$dW=\phi(t) dt+\theta(t)dW$
+$dX=\phi(t) dt+\theta(t)dW$
 
-Then, under Heun's method, we first use the same technique as 
+Then, under Heun's method, we first use the same technique as Euler's method to find the value of X(t+dt) by
+
+$X(t+dt)=X(t)+\phi(t) dt+\theta(t)dW$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjM3OTgzNCwtMTM2NzgxNzc3MSwtOD
+eyJoaXN0b3J5IjpbMTczNzgyOTA4MiwtMTM2NzgxNzc3MSwtOD
 AyNTg1MjcxLDQ3MzM3MDA4MV19
 -->
