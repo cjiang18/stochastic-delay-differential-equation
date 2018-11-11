@@ -52,10 +52,10 @@ However, this $X(t+dt)$ is only an intermediate value. The purpose is to use thi
 $X(t+dt)=X(t)+\frac{1}{2}[\phi(X(t))+\phi(X(t+dt))] dt+\theta(X(t))dW$
 
 # Lyapunov spectrum
-The Lyapunov specturm is very useful in determining
+The Lyapunov specturm is very useful in determining types of attractors. Negative Lyapunov spectra mean stable attractors, and positive Lyapunov spectra mean unsta
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDI0ODkxNiwtMTQwNTA4MzcxMSwtMT
+eyJoaXN0b3J5IjpbMjAwMTYxNzY0MSwtMTQwNTA4MzcxMSwtMT
 M2NzgxNzc3MSwtODAyNTg1MjcxLDQ3MzM3MDA4MV19
 -->
