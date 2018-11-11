@@ -117,7 +117,7 @@ b = the largest  value a path has ever visited
 a = the smallest value a path has ever visited
 
 
-Now, we have reduced our problem to what we have discussed at the very beginning of this section. So then we estimate the the Markov matrix and compute its normalised eigenvector with eigenvalue 1.
+Now, we have reduced our problem to what we have discussed at the very beginning of this section. So then we estimate the the Markov matrix and compute its normalised eigenvector with  1.
 
 
 
