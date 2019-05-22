@@ -156,6 +156,7 @@ Wreight's conjecture:
 $dX=-\alpha X_\tau(1+X)dt+\sigma XdW$
 
 
+That is all.
 
 
 
